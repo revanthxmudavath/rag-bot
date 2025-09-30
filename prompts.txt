@@ -1,0 +1,104 @@
+📋 Phase 3: RAG Integration Todo Plan
+
+  Based on the CLAUDE.md requirements and current repository state, here's the comprehensive Phase 3 implementation plan:
+
+  ✅ Repository Status Assessment
+
+  Current State:
+  - ✅ Phase 1: Foundation complete (project structure, models, config)
+  - ✅ Phase 2: Core API complete (health endpoint, logging, metrics, exceptions)
+  - 🔄 Phase 3: RAG Integration - Ready to begin
+
+  Existing Assets:
+  - ✅ Request/Response models defined in app/models/
+  - ✅ Configuration system with Azure OpenAI, MongoDB settings
+  - ✅ Logging and metrics infrastructure
+  - ✅ Exception handling framework
+  - 📁 Empty directories: data_science/, app/integrations/
+
+  🎯 Phase 3 Implementation Todos (7 Tasks)
+
+  Data Science Layer (Tasks 1-2)
+
+  1. 📄 Implement data_science/chunker.py using LangChain
+    - Text chunking with configurable size/overlap
+    - Support for multiple document formats
+    - Metadata preservation during chunking
+  2. 🧠 Implement data_science/embedder.py with sentence-transformers
+    - Initialize all-MiniLM-L6-v2 model
+    - Batch embedding generation
+    - Vector similarity utilities
+
+  Integration Layer (Tasks 3-4)
+
+  3. 🗄️ Create integrations/vector_db.py for MongoDB Atlas
+    - MongoDB Atlas connection management
+    - Vector search implementation
+    - Document storage/retrieval operations
+    - Index management for vector search
+  4. 🤖 Create integrations/llm_client.py for Azure OpenAI
+    - Azure OpenAI client setup
+    - Prompt engineering and completion
+    - Error handling and retry logic
+    - Token usage tracking
+
+  Service Layer (Task 5)
+
+  5. ⚙️ Implement services/rag_service.py to orchestrate pipeline
+    - Complete RAG workflow orchestration
+    - Query processing: embed → search → retrieve → generate
+    - Context building from retrieved chunks
+    - Response formatting with sources and metadata
+
+  API Layer (Tasks 6-7)
+
+  6. 🔍 Implement /api/rag-query endpoint
+    - Process user questions via RAG pipeline
+    - Return answers with source attribution
+    - Integration with logging/metrics services
+  7. 📥 Implement /api/ingest endpoint
+    - Document processing and chunking
+    - Embedding generation and storage
+    - Batch processing capabilities
+
+  📊 Implementation Priority & Dependencies
+
+  graph TD
+      A[1. Chunker] --> E[5. RAG Service]
+      B[2. Embedder] --> E
+      C[3. Vector DB] --> E
+      D[4. LLM Client] --> E
+      E --> F[6. RAG Query Endpoint]
+      E --> G[7. Ingest Endpoint]
+
+  Suggested Order:
+  1. Chunker + Embedder (parallel development)
+  2. Vector DB + LLM Client (parallel development)
+  3. RAG Service (requires 1-4 complete)
+  4. API Endpoints (requires RAG Service)
+
+  🔧 Technical Implementation Notes
+
+  Key Technologies:
+  - LangChain: Document chunking and text processing
+  - sentence-transformers: Embedding generation (all-MiniLM-L6-v2)
+  - MongoDB Atlas: Vector storage with search capabilities
+  - Azure OpenAI: LLM inference (DeepSeek R1)
+
+  Integration Requirements:
+  - Environment variables already configured in .env
+  - Request/Response models already defined
+  - Error handling and logging infrastructure ready
+  - Metrics collection for performance tracking
+
+  This plan will implement a complete RAG system capable of ingesting documents, processing user queries, and returning contextual
+  answers with source attribution.
+
+  Todos
+  ☐ Implement data_science/chunker.py using LangChain
+  ☐ Implement data_science/embedder.py with sentence-transformers
+  ☐ Create integrations/vector_db.py for MongoDB Atlas
+  ☐ Create integrations/llm_client.py for Azure OpenAI
+  ☐ Implement services/rag_service.py to orchestrate pipeline
+  ☐ Implement /api/rag-query endpoint
+  ☐ Implement /api/ingest endpoint
