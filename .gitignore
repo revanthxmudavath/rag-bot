@@ -1,4 +1,6 @@
 node_modules
+
+errorlogs.txt
 .env
 
 venv/
@@ -13,3 +15,12 @@ __pycache__/
 .env
 .vscode/
 .venv/
+
+logs/
+
+claude/tasks/
+
+information.md 
+
+test_components.py
+

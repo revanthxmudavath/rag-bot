@@ -3,13 +3,15 @@ from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 import time
-from loguru import logger
 from typing import Any, Dict
 
 from app.config import get_settings
+from app.services.logger_service import get_logger_service
 
 
 settings = get_settings()
+logger_service = get_logger_service()
+logger = logger_service.get_logger("main")
 
 
 @asynccontextmanager
@@ -63,9 +65,18 @@ def create_app() -> FastAPI:
         """Log all HTTP requests and responses."""
         start_time = time.time()
 
+        # Set request context for logging
+        request_id = getattr(request.state, 'request_id', 'unknown')
+        logger_service.set_request_context(
+            request_id=request_id,
+            endpoint=request.url.path
+        )
+
+        # Get logger with context
+        request_logger = logger_service.get_logger("http")
+
         # Log request
-        logger.info(
-            f"[{request.state.request_id if hasattr(request.state, 'request_id') else 'unknown'}] "
+        request_logger.info(
             f"Started {request.method} {request.url.path} | "
             f"client={request.client.host if request.client else 'unknown'}"
         )
@@ -76,13 +87,16 @@ def create_app() -> FastAPI:
         # Calculate duration
         duration_ms = (time.time() - start_time) * 1000
 
-        # Log response
-        logger.info(
-            f"[{request.state.request_id if hasattr(request.state, 'request_id') else 'unknown'}] "
-            f"Completed {request.method} {request.url.path} | "
-            f"status={response.status_code} | "
-            f"duration={duration_ms:.2f}ms"
+        # Log response using the structured method
+        logger_service.log_request(
+            method=request.method,
+            path=request.url.path,
+            status_code=response.status_code,
+            duration_ms=duration_ms
         )
+
+        # Clear context after request
+        logger_service.clear_request_context()
 
         return response
 
@@ -104,10 +118,24 @@ def create_app() -> FastAPI:
         """Handle unexpected exceptions."""
         request_id = getattr(request.state, 'request_id', 'unknown')
 
-        logger.error(
-            f"[{request_id}] Unhandled exception in {request.method} {request.url.path}: {str(exc)}",
-            exc_info=True
+        # Set request context for error logging
+        logger_service.set_request_context(
+            request_id=request_id,
+            endpoint=request.url.path
         )
+
+        # Use the structured error logging method
+        logger_service.log_error(
+            error=exc,
+            context={
+                "method": request.method,
+                "path": request.url.path,
+                "request_id": request_id
+            }
+        )
+
+        # Clear context
+        logger_service.clear_request_context()
 
         return JSONResponse(
             status_code=500,
@@ -130,15 +158,15 @@ def create_app() -> FastAPI:
         }
 
     # Include API routes
-    from app.api.routes import health
+    from app.api.routes import health, rag, ingest, metrics
     app.include_router(health.router, prefix=settings.api_prefix, tags=["health"])
+    app.include_router(rag.router, prefix=settings.api_prefix, tags=["rag"])
+    app.include_router(ingest.router, prefix=settings.api_prefix, tags=["ingest"])
+    app.include_router(metrics.router, prefix=f"{settings.api_prefix}/metrics", tags=["metrics"])
 
     # Future API routes
-    # from app.api.routes import rag, feedback, ingest, metrics
-    # app.include_router(rag.router, prefix=settings.api_prefix, tags=["rag"])
+    # from app.api.routes import feedback
     # app.include_router(feedback.router, prefix=settings.api_prefix, tags=["feedback"])
-    # app.include_router(ingest.router, prefix=settings.api_prefix, tags=["ingest"])
-    # app.include_router(metrics.router, prefix=settings.api_prefix, tags=["metrics"])
 
     return app
 
@@ -150,20 +178,9 @@ app = create_app()
 if __name__ == "__main__":
     import uvicorn
 
-    # Configure logging
-    logger.remove()
-    logger.add(
-        "logs/app.log",
-        rotation="1 day",
-        retention="30 days",
-        level=settings.log_level,
-        format="{time:YYYY-MM-DD HH:mm:ss} | {level} | {name}:{function}:{line} | {message}"
-    )
-    logger.add(
-        lambda msg: print(msg, end=""),
-        level=settings.log_level,
-        format="{time:HH:mm:ss} | {level} | {message}"
-    )
+    # Logger service is already configured in the module imports
+    # No need to reconfigure loguru directly here
+    logger.info("Starting FastAPI application directly")
 
     uvicorn.run(
         "app.main:app",

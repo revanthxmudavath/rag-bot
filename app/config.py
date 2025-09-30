@@ -7,16 +7,16 @@ class Settings(BaseSettings):
     """Application settings loaded from environment variables."""
 
     # Discord Bot Configuration
-    discord_bot_token: str = Field(..., description="Discord bot token")
+    discord_bot_token: Optional[str] = Field(default=None, description="Discord bot token")
 
     # MongoDB Atlas Configuration
-    mongodb_uri: str = Field(..., description="MongoDB connection URI")
+    mongodb_uri: Optional[str] = Field(default=None, description="MongoDB connection URI")
 
     # Azure OpenAI Configuration
-    azure_openai_api_key: str = Field(..., description="Azure OpenAI API key")
-    azure_openai_endpoint: str = Field(..., description="Azure OpenAI endpoint URL")
+    azure_openai_api_key: Optional[str] = Field(default=None, description="Azure OpenAI API key")
+    azure_openai_endpoint: Optional[str] = Field(default=None, description="Azure OpenAI endpoint URL")
     azure_openai_deployment_name: str = Field(
-        default="deepseek-r1",
+        default="gpt-4o",
         description="Azure OpenAI deployment name"
     )
 
@@ -44,7 +44,7 @@ class Settings(BaseSettings):
     )
 
     # Database Configuration
-    database_name: str = Field(default="rag_bot", description="MongoDB database name")
+    database_name: str = Field(default="rag-backend-db", description="MongoDB database name")
     collection_name: str = Field(default="documents", description="MongoDB collection name")
     vector_index_name: str = Field(default="vector_index", description="Vector search index name")
 

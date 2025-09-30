@@ -54,7 +54,7 @@ async def check_llm_health() -> HealthStatus:
             last_check=dt.datetime.now(dt.timezone.utc),
             details={
                 "endpoint": "available",
-                "model": settings.azure_openai_deployment_name if hasattr(settings, 'azure_openai_deployment_name') else "deepseek-r1",
+                "model": settings.azure_openai_deployment_name if hasattr(settings, 'azure_openai_deployment_name') else "gpt-4o",
                 "response_time_ms": 150.0
             }
         )

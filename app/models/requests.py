@@ -33,7 +33,7 @@ class FeedbackRequest(BaseModel):
     query_id: str = Field(..., description="ID of the query being rated")
     user_id: str = Field(..., description="Discord user ID")
     feedback_type: str = Field(
-        ..., regex="^(thumbs_up|thumbs_down)$", description="Type of feedback"
+        ..., pattern="^(thumbs_up|thumbs_down)$", description="Type of feedback"
     )
     rating: Optional[int] = Field(
         None, ge=1, le=5, description="Rating from 1-5 (optional)"
@@ -87,9 +87,9 @@ class IngestRequest(BaseModel):
     )
 
     @field_validator("chunk_overlap")
-    def validate_overlap(cls, v, values):
+    def validate_overlap(cls, v, info):
         """Validate chunk overlap is less than chunk size."""
-        chunk_size = values.get("chunk_size", 500)
+        chunk_size = info.data.get("chunk_size", 500) if hasattr(info, 'data') and info.data else 500
         if v >= chunk_size:
             raise ValueError("Chunk overlap must be less than chunk size")
         return v
@@ -118,9 +118,9 @@ class MetricsRequest(BaseModel):
     )
 
     @field_validator("end_time")
-    def validate_time_range(cls, v, values):
+    def validate_time_range(cls, v, info):
         """Validate end time is after start time."""
-        start_time = values.get("start_time")
+        start_time = info.data.get("start_time") if hasattr(info, 'data') and info.data else None
         if start_time and v and v <= start_time:
             raise ValueError("End time must be after start time")
         return v

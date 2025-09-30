@@ -23,6 +23,13 @@ class LoggerService:
         # Remove default logger
         logger.remove()
 
+        def _add_default_context(record):
+            record["extra"].setdefault("request_id", "no_req")
+            record["extra"].setdefault("user_id", None)
+            record["extra"].setdefault("endpoint", None)
+
+        logger.configure(extra={"request_id": "no_req"}, patcher=_add_default_context)
+
         # Create logs directory
         logs_dir = Path("logs")
         logs_dir.mkdir(exist_ok=True)
@@ -41,12 +48,13 @@ class LoggerService:
             }
 
             # Add request context if available
-            if hasattr(record["extra"], "request_id"):
-                log_entry["request_id"] = record["extra"]["request_id"]
-            if hasattr(record["extra"], "user_id"):
-                log_entry["user_id"] = record["extra"]["user_id"]
-            if hasattr(record["extra"], "endpoint"):
-                log_entry["endpoint"] = record["extra"]["endpoint"]
+            extra = record["extra"]
+            if "request_id" in extra:
+                log_entry["request_id"] = extra["request_id"]
+            if "user_id" in extra and extra["user_id"] is not None:
+                log_entry["user_id"] = extra["user_id"]
+            if "endpoint" in extra and extra["endpoint"] is not None:
+                log_entry["endpoint"] = extra["endpoint"]
 
             # Add any extra fields
             for key, value in record["extra"].items():
@@ -73,8 +81,7 @@ class LoggerService:
                 format="{time:YYYY-MM-DD HH:mm:ss} | {level} | {name}:{function}:{line} | {extra[request_id]} | {message}",
                 level=settings.log_level,
                 rotation="1 day",
-                retention="7 days",
-                filter=lambda record: record["extra"].get("request_id", "unknown")
+                retention="7 days"
             )
 
         # Console logger with colors for development
@@ -83,8 +90,7 @@ class LoggerService:
                 sys.stderr,
                 format="<green>{time:HH:mm:ss}</green> | <level>{level}</level> | <cyan>{extra[request_id]}</cyan> | <level>{message}</level>",
                 level=settings.log_level,
-                colorize=True,
-                filter=lambda record: record["extra"].get("request_id", "unknown")
+                colorize=True
             )
 
         # Error logger
@@ -93,8 +99,7 @@ class LoggerService:
             format="{time:YYYY-MM-DD HH:mm:ss} | {level} | {name}:{function}:{line} | {extra[request_id]} | {message}",
             level="ERROR",
             rotation="1 day",
-            retention="30 days",
-            filter=lambda record: record["extra"].get("request_id", "unknown")
+            retention="30 days"
         )
 
     def set_request_context(self, request_id: str, user_id: Optional[str] = None,
@@ -113,7 +118,9 @@ class LoggerService:
 
     def get_logger(self, name: Optional[str] = None):
         """Get logger with current context."""
-        log = logger.bind(**self._request_context)
+        # Ensure request_id exists even if not set
+        context = {"request_id": "no_req", **self._request_context}
+        log = logger.bind(**context)
         if name:
             log = log.bind(logger_name=name)
         return log
@@ -158,7 +165,7 @@ class LoggerService:
             "error_message": str(error),
             **(context or {})
         }
-        self.get_logger("error").error("Application error occurred", **log_data, exc_info=error)
+        self.get_logger("error").opt(exception=error).error("Application error occurred", **log_data)
 
     def log_performance(self, operation: str, duration_ms: float, **kwargs):
         """Log performance metrics."""

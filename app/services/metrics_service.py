@@ -1,4 +1,5 @@
 import time
+import math
 import psutil
 import asyncio
 from typing import Dict, List, Any, Optional
@@ -345,6 +346,74 @@ class MetricsService:
                 time_range={"start": current_time, "end": current_time},
                 summary={}
             )
+
+    def get_metrics(self, time_window_minutes: int = 5) -> Dict[str, Any]:
+        """Return a structured metrics snapshot for dashboards."""
+        try:
+            cutoff_time = datetime.utcnow() - timedelta(minutes=time_window_minutes)
+
+            with self._lock:
+                request_samples = list(self.request_metrics)
+                endpoint_counts = dict(self.endpoint_counts)
+                response_times = {endpoint: list(times) for endpoint, times in self.response_times.items()}
+                status_code_counts = dict(self.status_code_counts)
+                error_counter = dict(self.error_count)
+
+            total_requests = len(request_samples)
+            recent_requests = [m for m in request_samples if m.timestamp >= cutoff_time]
+            recent_errors = [m for m in recent_requests if m.status_code >= 400]
+            all_durations = [m.duration_ms for m in request_samples]
+            recent_durations = [m.duration_ms for m in recent_requests]
+
+            average_duration = sum(all_durations) / total_requests if total_requests else 0.0
+            recent_average = sum(recent_durations) / len(recent_durations) if recent_durations else 0.0
+            requests_per_minute = (len(recent_requests) / time_window_minutes) if time_window_minutes and recent_requests else 0.0
+            error_rate = (len(recent_errors) / len(recent_requests) * 100) if recent_requests else 0.0
+
+            def percentile(values, pct):
+                if not values:
+                    return 0.0
+                sorted_vals = sorted(values)
+                index = min(len(sorted_vals) - 1, max(0, math.ceil(len(sorted_vals) * pct) - 1))
+                return float(sorted_vals[index])
+
+            endpoint_stats = []
+            for endpoint, count in sorted(endpoint_counts.items(), key=lambda item: item[1], reverse=True):
+                durations = response_times.get(endpoint, [])
+                endpoint_avg = sum(durations) / len(durations) if durations else 0.0
+                endpoint_stats.append({
+                    "endpoint": endpoint,
+                    "count": count,
+                    "average_response_time_ms": round(endpoint_avg, 2)
+                })
+
+            total_errors = sum(error_counter.values())
+            p95 = percentile(recent_durations, 0.95)
+            p99 = percentile(recent_durations, 0.99)
+
+            return {
+                "requests": {
+                    "total": total_requests,
+                    "total_errors": total_errors,
+                    "error_rate": round(error_rate, 2),
+                    "requests_per_minute": round(requests_per_minute, 2),
+                    "average_response_time_ms": round(average_duration, 2),
+                    "recent_average_response_time_ms": round(recent_average, 2),
+                    "recent_window_minutes": time_window_minutes
+                },
+                "endpoints": endpoint_stats,
+                "status_codes": status_code_counts,
+                "errors": error_counter,
+                "performance": {
+                    "uptime_seconds": round(self.get_uptime_seconds(), 2),
+                    "p95_response_time_ms": round(p95, 2),
+                    "p99_response_time_ms": round(p99, 2)
+                }
+            }
+
+        except Exception as e:
+            logger_service.log_error(e, {"operation": "get_metrics_snapshot"})
+            return {}
 
     def reset_metrics(self):
         """Reset all metrics (useful for testing)."""

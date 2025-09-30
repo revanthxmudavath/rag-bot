@@ -1,0 +1,1816 @@
+2025-09-29 13:13:41 | ERROR | app.services.logger_service:log_error:161 | 496f1c55-530f-4539-bb38-22935e5f2a55 | Application error occurred
+2025-09-29 13:13:41 | ERROR | app.services.logger_service:log_error:161 | 496f1c55-530f-4539-bb38-22935e5f2a55 | Application error occurred
+2025-09-29 13:13:43 | ERROR | app.services.logger_service:log_llm_request:212 | 496f1c55-530f-4539-bb38-22935e5f2a55 | LLM request failed
+2025-09-29 13:13:43 | ERROR | app.services.logger_service:log_error:161 | 496f1c55-530f-4539-bb38-22935e5f2a55 | Application error occurred
+2025-09-29 13:13:47 | ERROR | app.services.logger_service:log_llm_request:212 | 496f1c55-530f-4539-bb38-22935e5f2a55 | LLM request failed
+2025-09-29 13:13:47 | ERROR | app.services.logger_service:log_error:161 | 496f1c55-530f-4539-bb38-22935e5f2a55 | Application error occurred
+2025-09-29 13:13:51 | ERROR | app.services.logger_service:log_llm_request:212 | 496f1c55-530f-4539-bb38-22935e5f2a55 | LLM request failed
+2025-09-29 13:13:51 | ERROR | app.services.logger_service:log_error:161 | 496f1c55-530f-4539-bb38-22935e5f2a55 | Application error occurred
+2025-09-29 13:13:51 | ERROR | app.services.logger_service:log_error:161 | 496f1c55-530f-4539-bb38-22935e5f2a55 | Application error occurred
+2025-09-29 13:13:51 | ERROR | app.services.logger_service:log_error:161 | 496f1c55-530f-4539-bb38-22935e5f2a55 | Application error occurred
+2025-09-29 13:13:59 | ERROR | app.services.logger_service:log_error:161 | 28f6ff66-1a18-42cf-9189-877cef0fb1a6 | Application error occurred
+2025-09-29 13:13:59 | ERROR | app.services.logger_service:log_error:161 | 28f6ff66-1a18-42cf-9189-877cef0fb1a6 | Application error occurred
+2025-09-29 13:13:59 | ERROR | app.services.logger_service:log_error:161 | 28f6ff66-1a18-42cf-9189-877cef0fb1a6 | Application error occurred
+2025-09-29 15:49:54 | ERROR | app.services.logger_service:log_error:160 | no_req | Application error occurred
+2025-09-29 15:49:54 | ERROR | app.services.logger_service:log_error:160 | no_req | Application error occurred
+2025-09-29 15:49:55 | ERROR | app.services.logger_service:log_llm_request:211 | no_req | LLM request failed
+2025-09-29 15:49:55 | ERROR | app.services.logger_service:log_error:160 | no_req | Application error occurred
+2025-09-29 15:49:59 | ERROR | app.services.logger_service:log_error:160 | no_req | Application error occurred
+2025-09-29 15:49:59 | ERROR | app.services.logger_service:log_error:160 | no_req | Application error occurred
+2025-09-29 15:49:59 | ERROR | app.services.logger_service:log_llm_request:211 | no_req | LLM request failed
+2025-09-29 15:49:59 | ERROR | app.services.logger_service:log_error:160 | no_req | Application error occurred
+2025-09-29 15:50:03 | ERROR | app.services.logger_service:log_llm_request:211 | no_req | LLM request failed
+2025-09-29 15:50:03 | ERROR | app.services.logger_service:log_error:160 | no_req | Application error occurred
+2025-09-29 15:50:03 | ERROR | app.services.logger_service:log_error:160 | no_req | Application error occurred
+2025-09-29 19:57:21 | ERROR | app.services.logger_service:log_error:160 | 916be6d7 | Application error occurred
+2025-09-29 19:57:21 | ERROR | app.services.logger_service:log_error:160 | 916be6d7 | Application error occurred
+2025-09-29 19:57:24 | ERROR | app.services.logger_service:log_llm_request:211 | 916be6d7 | LLM request failed
+2025-09-29 19:57:24 | ERROR | app.services.logger_service:log_error:160 | 916be6d7 | Application error occurred
+2025-09-29 19:57:27 | ERROR | app.services.logger_service:log_error:160 | 916be6d7 | Application error occurred
+2025-09-29 19:57:27 | ERROR | app.services.logger_service:log_error:160 | 916be6d7 | Application error occurred
+2025-09-29 19:57:28 | ERROR | app.services.logger_service:log_llm_request:211 | 916be6d7 | LLM request failed
+2025-09-29 19:57:28 | ERROR | app.services.logger_service:log_error:160 | 916be6d7 | Application error occurred
+2025-09-29 19:57:32 | ERROR | app.services.logger_service:log_llm_request:211 | 916be6d7 | LLM request failed
+2025-09-29 19:57:32 | ERROR | app.services.logger_service:log_error:160 | 916be6d7 | Application error occurred
+2025-09-29 19:57:32 | ERROR | app.services.logger_service:log_error:160 | 916be6d7 | Application error occurred
+2025-09-29 19:57:32 | ERROR | app.services.logger_service:log_request:134 | 916be6d7 | HTTP request failed
+2025-09-29 19:57:49 | ERROR | app.services.logger_service:log_error:160 | f78d4bf2 | Application error occurred
+2025-09-29 19:57:49 | ERROR | app.services.logger_service:log_error:160 | f78d4bf2 | Application error occurred
+2025-09-29 19:57:49 | ERROR | app.services.logger_service:log_llm_request:211 | f78d4bf2 | LLM request failed
+2025-09-29 19:57:49 | ERROR | app.services.logger_service:log_error:160 | f78d4bf2 | Application error occurred
+2025-09-29 19:57:53 | ERROR | app.services.logger_service:log_llm_request:211 | f78d4bf2 | LLM request failed
+2025-09-29 19:57:53 | ERROR | app.services.logger_service:log_error:160 | f78d4bf2 | Application error occurred
+2025-09-29 19:57:54 | ERROR | app.services.logger_service:log_error:160 | f78d4bf2 | Application error occurred
+2025-09-29 19:57:54 | ERROR | app.services.logger_service:log_error:160 | f78d4bf2 | Application error occurred
+2025-09-29 19:57:58 | ERROR | app.services.logger_service:log_llm_request:211 | f78d4bf2 | LLM request failed
+2025-09-29 19:57:58 | ERROR | app.services.logger_service:log_error:160 | f78d4bf2 | Application error occurred
+2025-09-29 19:57:58 | ERROR | app.services.logger_service:log_error:160 | f78d4bf2 | Application error occurred
+2025-09-29 19:57:58 | ERROR | app.services.logger_service:log_request:134 | f78d4bf2 | HTTP request failed
+2025-09-29 19:59:17 | ERROR | app.services.logger_service:log_llm_request:211 | 6d3adfee | LLM request failed
+2025-09-29 19:59:17 | ERROR | app.services.logger_service:log_error:160 | 6d3adfee | Application error occurred
+2025-09-29 19:59:22 | ERROR | app.services.logger_service:log_llm_request:211 | 6d3adfee | LLM request failed
+2025-09-29 19:59:22 | ERROR | app.services.logger_service:log_error:160 | 6d3adfee | Application error occurred
+2025-09-29 19:59:22 | ERROR | app.services.logger_service:log_error:160 | 6d3adfee | Application error occurred
+2025-09-29 19:59:22 | ERROR | app.services.logger_service:log_error:160 | 6d3adfee | Application error occurred
+2025-09-29 19:59:26 | ERROR | app.services.logger_service:log_llm_request:211 | 6d3adfee | LLM request failed
+2025-09-29 19:59:26 | ERROR | app.services.logger_service:log_error:160 | 6d3adfee | Application error occurred
+2025-09-29 19:59:26 | ERROR | app.services.logger_service:log_error:160 | 6d3adfee | Application error occurred
+2025-09-29 19:59:36 | ERROR | app.services.logger_service:log_llm_request:211 | 11e03b58 | LLM request failed
+2025-09-29 19:59:36 | ERROR | app.services.logger_service:log_error:160 | 11e03b58 | Application error occurred
+2025-09-29 19:59:40 | ERROR | app.services.logger_service:log_llm_request:211 | 11e03b58 | LLM request failed
+2025-09-29 19:59:40 | ERROR | app.services.logger_service:log_error:160 | 11e03b58 | Application error occurred
+2025-09-29 19:59:41 | ERROR | app.services.logger_service:log_error:160 | 11e03b58 | Application error occurred
+2025-09-29 19:59:41 | ERROR | app.services.logger_service:log_error:160 | 11e03b58 | Application error occurred
+2025-09-29 19:59:44 | ERROR | app.services.logger_service:log_llm_request:211 | 11e03b58 | LLM request failed
+2025-09-29 19:59:44 | ERROR | app.services.logger_service:log_error:160 | 11e03b58 | Application error occurred
+2025-09-29 19:59:44 | ERROR | app.services.logger_service:log_error:160 | 11e03b58 | Application error occurred
+2025-09-29 20:01:01 | ERROR | app.services.logger_service:log_error:160 | 762a0883-7409-4338-8d8b-b337ff5fd414 | Application error occurred
+2025-09-29 20:01:01 | ERROR | app.services.logger_service:log_error:160 | 762a0883-7409-4338-8d8b-b337ff5fd414 | Application error occurred
+2025-09-29 20:01:02 | ERROR | app.services.logger_service:log_llm_request:211 | 762a0883-7409-4338-8d8b-b337ff5fd414 | LLM request failed
+2025-09-29 20:01:02 | ERROR | app.services.logger_service:log_error:160 | 762a0883-7409-4338-8d8b-b337ff5fd414 | Application error occurred
+2025-09-29 20:01:06 | ERROR | app.services.logger_service:log_llm_request:211 | 762a0883-7409-4338-8d8b-b337ff5fd414 | LLM request failed
+2025-09-29 20:01:06 | ERROR | app.services.logger_service:log_error:160 | 762a0883-7409-4338-8d8b-b337ff5fd414 | Application error occurred
+2025-09-29 20:01:10 | ERROR | app.services.logger_service:log_llm_request:211 | 762a0883-7409-4338-8d8b-b337ff5fd414 | LLM request failed
+2025-09-29 20:01:10 | ERROR | app.services.logger_service:log_error:160 | 762a0883-7409-4338-8d8b-b337ff5fd414 | Application error occurred
+2025-09-29 20:01:10 | ERROR | app.services.logger_service:log_error:160 | 762a0883-7409-4338-8d8b-b337ff5fd414 | Application error occurred
+2025-09-29 20:01:10 | ERROR | app.services.logger_service:log_error:160 | 762a0883-7409-4338-8d8b-b337ff5fd414 | Application error occurred
+2025-09-29 20:01:59 | ERROR | app.services.logger_service:log_error:160 | 428fa9df-2c59-42b6-b594-73e25e2be3d7 | Application error occurred
+2025-09-29 20:01:59 | ERROR | app.services.logger_service:log_error:160 | 428fa9df-2c59-42b6-b594-73e25e2be3d7 | Application error occurred
+2025-09-29 20:01:59 | ERROR | app.services.logger_service:log_error:160 | 428fa9df-2c59-42b6-b594-73e25e2be3d7 | Application error occurred
+2025-09-29 20:06:29 | ERROR | app.services.logger_service:log_error:160 | 9d13f177-87f5-42cf-8e8b-2f7ba65fce0d | Application error occurred
+2025-09-29 20:06:29 | ERROR | app.services.logger_service:log_error:160 | 9d13f177-87f5-42cf-8e8b-2f7ba65fce0d | Application error occurred
+2025-09-29 20:06:30 | ERROR | app.services.logger_service:log_llm_request:211 | 9d13f177-87f5-42cf-8e8b-2f7ba65fce0d | LLM request failed
+2025-09-29 20:06:30 | ERROR | app.services.logger_service:log_error:160 | 9d13f177-87f5-42cf-8e8b-2f7ba65fce0d | Application error occurred
+2025-09-29 20:06:34 | ERROR | app.services.logger_service:log_llm_request:211 | 9d13f177-87f5-42cf-8e8b-2f7ba65fce0d | LLM request failed
+2025-09-29 20:06:34 | ERROR | app.services.logger_service:log_error:160 | 9d13f177-87f5-42cf-8e8b-2f7ba65fce0d | Application error occurred
+2025-09-29 20:06:38 | ERROR | app.services.logger_service:log_llm_request:211 | 9d13f177-87f5-42cf-8e8b-2f7ba65fce0d | LLM request failed
+2025-09-29 20:06:38 | ERROR | app.services.logger_service:log_error:160 | 9d13f177-87f5-42cf-8e8b-2f7ba65fce0d | Application error occurred
+2025-09-29 20:06:38 | ERROR | app.services.logger_service:log_error:160 | 9d13f177-87f5-42cf-8e8b-2f7ba65fce0d | Application error occurred
+2025-09-29 20:06:38 | ERROR | app.services.logger_service:log_error:160 | 9d13f177-87f5-42cf-8e8b-2f7ba65fce0d | Application error occurred
+2025-09-29 20:07:16 | ERROR | app.services.logger_service:log_error:160 | 7f272bbc-56d5-4ae1-98fe-d1ab65bbc760 | Application error occurred
+2025-09-29 20:07:16 | ERROR | app.services.logger_service:log_error:160 | 7f272bbc-56d5-4ae1-98fe-d1ab65bbc760 | Application error occurred
+2025-09-29 20:07:16 | ERROR | app.services.logger_service:log_error:160 | 7f272bbc-56d5-4ae1-98fe-d1ab65bbc760 | Application error occurred
+2025-09-29 20:07:54 | ERROR | app.services.logger_service:log_llm_request:211 | 8687149b | LLM request failed
+2025-09-29 20:07:54 | ERROR | app.services.logger_service:log_error:160 | 8687149b | Application error occurred
+2025-09-29 20:07:58 | ERROR | app.services.logger_service:log_llm_request:211 | 8687149b | LLM request failed
+2025-09-29 20:07:58 | ERROR | app.services.logger_service:log_error:160 | 8687149b | Application error occurred
+2025-09-29 20:07:58 | ERROR | app.services.logger_service:log_error:160 | 8687149b | Application error occurred
+2025-09-29 20:07:58 | ERROR | app.services.logger_service:log_error:160 | 8687149b | Application error occurred
+2025-09-29 20:08:02 | ERROR | app.services.logger_service:log_llm_request:211 | 8687149b | LLM request failed
+2025-09-29 20:08:02 | ERROR | app.services.logger_service:log_error:160 | 8687149b | Application error occurred
+2025-09-29 20:08:02 | ERROR | app.services.logger_service:log_error:160 | 8687149b | Application error occurred
+2025-09-29 21:14:19 | ERROR | app.services.logger_service:log_llm_request:211 | 63dc163a | LLM request failed
+2025-09-29 21:14:19 | ERROR | app.services.logger_service:log_error:160 | 63dc163a | Application error occurred
+2025-09-29 21:14:23 | ERROR | app.services.logger_service:log_llm_request:211 | 63dc163a | LLM request failed
+2025-09-29 21:14:23 | ERROR | app.services.logger_service:log_error:160 | 63dc163a | Application error occurred
+2025-09-29 21:14:24 | ERROR | app.services.logger_service:log_error:160 | 63dc163a | Application error occurred
+2025-09-29 21:14:24 | ERROR | app.services.logger_service:log_error:160 | 63dc163a | Application error occurred
+2025-09-29 21:14:27 | ERROR | app.services.logger_service:log_llm_request:211 | 63dc163a | LLM request failed
+2025-09-29 21:14:27 | ERROR | app.services.logger_service:log_error:160 | 63dc163a | Application error occurred
+2025-09-29 21:14:27 | ERROR | app.services.logger_service:log_error:160 | 63dc163a | Application error occurred
+2025-09-29 21:15:48 | ERROR | app.services.logger_service:log_error:160 | aee423d5-2c7d-49bb-8f05-18cc3a92d108 | Application error occurred
+2025-09-29 21:15:48 | ERROR | app.services.logger_service:log_error:160 | aee423d5-2c7d-49bb-8f05-18cc3a92d108 | Application error occurred
+2025-09-29 21:15:48 | ERROR | app.services.logger_service:log_error:160 | aee423d5-2c7d-49bb-8f05-18cc3a92d108 | Application error occurred
+2025-09-29 22:19:29 | ERROR | app.services.logger_service:log_llm_request:211 | eb755db2 | LLM request failed
+2025-09-29 22:19:29 | ERROR | app.services.logger_service:log_error:160 | eb755db2 | Application error occurred
+2025-09-29 22:19:33 | ERROR | app.services.logger_service:log_llm_request:211 | eb755db2 | LLM request failed
+2025-09-29 22:19:33 | ERROR | app.services.logger_service:log_error:160 | eb755db2 | Application error occurred
+2025-09-29 22:19:35 | ERROR | app.services.logger_service:log_error:160 | eb755db2 | Application error occurred
+2025-09-29 22:19:35 | ERROR | app.services.logger_service:log_error:160 | eb755db2 | Application error occurred
+2025-09-29 22:19:37 | ERROR | app.services.logger_service:log_llm_request:211 | eb755db2 | LLM request failed
+2025-09-29 22:19:37 | ERROR | app.services.logger_service:log_error:160 | eb755db2 | Application error occurred
+2025-09-29 22:19:37 | ERROR | app.services.logger_service:log_error:160 | eb755db2 | Application error occurred
+2025-09-29 22:32:20 | ERROR | app.services.logger_service:log_error:168 | 1a6b8859 | Application error occurred
+Traceback (most recent call last):
+
+  File "<string>", line 1, in <module>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\spawn.py", line 122, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+               │     │   └ 308
+               │     └ 3
+               └ <function _main at 0x0000020D5A8132E0>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\spawn.py", line 135, in _main
+    return self._bootstrap(parent_sentinel)
+           │    │          └ 308
+           │    └ <function BaseProcess._bootstrap at 0x0000020D5A709620>
+           └ <SpawnProcess name='SpawnProcess-1' parent=21148 started>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\process.py", line 314, in _bootstrap
+    self.run()
+    │    └ <function BaseProcess.run at 0x0000020D5A708B80>
+    └ <SpawnProcess name='SpawnProcess-1' parent=21148 started>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {'config': <uvicorn.config.Config object at 0x0000020D5A7D4320>, 'target': <bound method Server.run of <uvicorn.server.Server...
+    │    │        │    │        └ <SpawnProcess name='SpawnProcess-1' parent=21148 started>
+    │    │        │    └ ()
+    │    │        └ <SpawnProcess name='SpawnProcess-1' parent=21148 started>
+    │    └ <function subprocess_started at 0x0000020D5CBB8400>
+    └ <SpawnProcess name='SpawnProcess-1' parent=21148 started>
+  File "F:\rag-bot\venv\Lib\site-packages\uvicorn\_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+    │              └ [<socket.socket fd=328, family=2, type=1, proto=6, laddr=('127.0.0.1', 8000)>]
+    └ <bound method Server.run of <uvicorn.server.Server object at 0x0000020D5CD2AFF0>>
+  File "F:\rag-bot\venv\Lib\site-packages\uvicorn\server.py", line 67, in run
+    return asyncio_run(self.serve(sockets=sockets), loop_factory=self.config.get_loop_factory())
+           │           │    │             │                      │    │      └ <function Config.get_loop_factory at 0x0000020D5CB4D620>
+           │           │    │             │                      │    └ <uvicorn.config.Config object at 0x0000020D5A7D4320>
+           │           │    │             │                      └ <uvicorn.server.Server object at 0x0000020D5CD2AFF0>
+           │           │    │             └ [<socket.socket fd=328, family=2, type=1, proto=6, laddr=('127.0.0.1', 8000)>]
+           │           │    └ <function Server.serve at 0x0000020D5CB939C0>
+           │           └ <uvicorn.server.Server object at 0x0000020D5CD2AFF0>
+           └ <function run at 0x0000020D5C43B600>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 194, in run
+    return runner.run(main)
+           │      │   └ <coroutine object Server.serve at 0x0000020D5CCE7920>
+           │      └ <function Runner.run at 0x0000020D5C4668E0>
+           └ <asyncio.runners.Runner object at 0x0000020D5A7D44A0>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           │    │     │                  └ <Task pending name='Task-1' coro=<Server.serve() running at F:\rag-bot\venv\Lib\site-packages\uvicorn\server.py:71> wait_for=...
+           │    │     └ <function BaseEventLoop.run_until_complete at 0x0000020D5C464540>
+           │    └ <_WindowsSelectorEventLoop running=True closed=False debug=False>
+           └ <asyncio.runners.Runner object at 0x0000020D5A7D44A0>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 674, in run_until_complete
+    self.run_forever()
+    │    └ <function BaseEventLoop.run_forever at 0x0000020D5C4644A0>
+    └ <_WindowsSelectorEventLoop running=True closed=False debug=False>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 641, in run_forever
+    self._run_once()
+    │    └ <function BaseEventLoop._run_once at 0x0000020D5C4662A0>
+    └ <_WindowsSelectorEventLoop running=True closed=False debug=False>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 1987, in _run_once
+    handle._run()
+    │      └ <function Handle._run at 0x0000020D5C3A05E0>
+    └ <Handle Task.task_wakeup(<Future finis...tlasError'}")>)>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+    │    │            │    │           │    └ <member '_args' of 'Handle' objects>
+    │    │            │    │           └ <Handle Task.task_wakeup(<Future finis...tlasError'}")>)>
+    │    │            │    └ <member '_callback' of 'Handle' objects>
+    │    │            └ <Handle Task.task_wakeup(<Future finis...tlasError'}")>)>
+    │    └ <member '_context' of 'Handle' objects>
+    └ <Handle Task.task_wakeup(<Future finis...tlasError'}")>)>
+
+  File "F:\rag-bot\app\integrations\vector_db.py", line 376, in health_check
+    await self.connect()
+          │    └ <function VectorDatabase.connect at 0x0000020D7B1756C0>
+          └ <app.integrations.vector_db.VectorDatabase object at 0x0000020D7AC0B860>
+
+> File "F:\rag-bot\app\integrations\vector_db.py", line 61, in connect
+    await self.client.admin.command('ping')
+          │    └ AsyncIOMotorClient(MongoClient(host=['ac-zv72iq8-shard-00-00.okflkbo.mongodb.net:27017', 'ac-zv72iq8-shard-00-02.okflkbo.mong...
+          └ <app.integrations.vector_db.VectorDatabase object at 0x0000020D7AC0B860>
+
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             │        │            └ None
+             │        └ None
+             └ None
+  File "F:\rag-bot\venv\Lib\site-packages\pymongo\_csot.py", line 125, in csot_wrapper
+    return func(self, *args, **kwargs)
+           │    │      │       └ {}
+           │    │      └ ('ping',)
+           │    └ Database(MongoClient(host=['ac-zv72iq8-shard-00-00.okflkbo.mongodb.net:27017', 'ac-zv72iq8-shard-00-02.okflkbo.mongodb.net:27...
+           └ <function Database.command at 0x0000020D7B04FC40>
+  File "F:\rag-bot\venv\Lib\site-packages\pymongo\synchronous\database.py", line 931, in command
+    with self._client._conn_for_reads(read_preference, session, operation=command_name) as (
+         │    │       │               │                │                  └ 'ping'
+         │    │       │               │                └ None
+         │    │       │               └ Primary()
+         │    │       └ <function MongoClient._conn_for_reads at 0x0000020D7B0C34C0>
+         │    └ MongoClient(host=['ac-zv72iq8-shard-00-00.okflkbo.mongodb.net:27017', 'ac-zv72iq8-shard-00-02.okflkbo.mongodb.net:27017', 'ac...
+         └ Database(MongoClient(host=['ac-zv72iq8-shard-00-00.okflkbo.mongodb.net:27017', 'ac-zv72iq8-shard-00-02.okflkbo.mongodb.net:27...
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 137, in __enter__
+    return next(self.gen)
+                │    └ <generator object MongoClient._conn_from_server at 0x0000020D7CBFB240>
+                └ <contextlib._GeneratorContextManager object at 0x0000020D7CC47050>
+  File "F:\rag-bot\venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 1867, in _conn_from_server
+    with self._checkout(server, session) as conn:
+         │    │         │       └ None
+         │    │         └ <Server <ServerDescription ('ac-zv72iq8-shard-00-01.okflkbo.mongodb.net', 27017) server_type: Unknown, rtt: None, error=Opera...
+         │    └ <function MongoClient._checkout at 0x0000020D7B0C31A0>
+         └ MongoClient(host=['ac-zv72iq8-shard-00-00.okflkbo.mongodb.net:27017', 'ac-zv72iq8-shard-00-02.okflkbo.mongodb.net:27017', 'ac...
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 137, in __enter__
+    return next(self.gen)
+                │    └ <generator object MongoClient._checkout at 0x0000020D7D4A0150>
+                └ <contextlib._GeneratorContextManager object at 0x0000020D7CC47020>
+  File "F:\rag-bot\venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 1777, in _checkout
+    with server.checkout(handler=err_handler) as conn:
+         │      │                └ <pymongo.synchronous.mongo_client._MongoClientErrorHandler object at 0x0000020D7CC318A0>
+         │      └ <function Server.checkout at 0x0000020D7B0AB420>
+         └ <Server <ServerDescription ('ac-zv72iq8-shard-00-01.okflkbo.mongodb.net', 27017) server_type: Unknown, rtt: None, error=Opera...
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 137, in __enter__
+    return next(self.gen)
+                │    └ <generator object Pool.checkout at 0x0000020D7CC047C0>
+                └ <contextlib._GeneratorContextManager object at 0x0000020D7CC46FF0>
+  File "F:\rag-bot\venv\Lib\site-packages\pymongo\synchronous\pool.py", line 1118, in checkout
+    conn = self._get_conn(checkout_started_time, handler=handler)
+           │    │         │                              └ <pymongo.synchronous.mongo_client._MongoClientErrorHandler object at 0x0000020D7CC318A0>
+           │    │         └ 378550.703
+           │    └ <function Pool._get_conn at 0x0000020D7B0A99E0>
+           └ <pymongo.synchronous.pool.Pool object at 0x0000020D7CC45D90>
+  File "F:\rag-bot\venv\Lib\site-packages\pymongo\synchronous\pool.py", line 1280, in _get_conn
+    conn = self.connect(handler=handler)
+           │    │               └ <pymongo.synchronous.mongo_client._MongoClientErrorHandler object at 0x0000020D7CC318A0>
+           │    └ <function Pool.connect at 0x0000020D7B0A9760>
+           └ <pymongo.synchronous.pool.Pool object at 0x0000020D7CC45D90>
+  File "F:\rag-bot\venv\Lib\site-packages\pymongo\synchronous\pool.py", line 1072, in connect
+    conn.authenticate()
+    │    └ <function Connection.authenticate at 0x0000020D7B0A84A0>
+    └ Connection(<pymongo.network_layer.NetworkingInterface object at 0x0000020D7CC47410>) CLOSED at 2256951080096
+  File "F:\rag-bot\venv\Lib\site-packages\pymongo\synchronous\pool.py", line 525, in authenticate
+    auth.authenticate(creds, self, reauthenticate=reauthenticate)
+    │    │            │      │                    └ False
+    │    │            │      └ Connection(<pymongo.network_layer.NetworkingInterface object at 0x0000020D7CC47410>) CLOSED at 2256951080096
+    │    │            └ MongoCredential(mechanism='DEFAULT', source='admin', username='revanthnaik12_db_user', password='HipsterWong$420', mechanism_...
+    │    └ <function authenticate at 0x0000020D7B0F8C20>
+    └ <module 'pymongo.synchronous.auth' from 'F:\\rag-bot\\venv\\Lib\\site-packages\\pymongo\\synchronous\\auth.py'>
+  File "F:\rag-bot\venv\Lib\site-packages\pymongo\synchronous\auth.py", line 450, in authenticate
+    auth_func(credentials, conn)
+    │         │            └ Connection(<pymongo.network_layer.NetworkingInterface object at 0x0000020D7CC47410>) CLOSED at 2256951080096
+    │         └ MongoCredential(mechanism='DEFAULT', source='admin', username='revanthnaik12_db_user', password='HipsterWong$420', mechanism_...
+    └ <function _authenticate_default at 0x0000020D7B0F8B80>
+  File "F:\rag-bot\venv\Lib\site-packages\pymongo\synchronous\auth.py", line 355, in _authenticate_default
+    return _authenticate_scram(credentials, conn, "SCRAM-SHA-1")
+           │                   │            └ Connection(<pymongo.network_layer.NetworkingInterface object at 0x0000020D7CC47410>) CLOSED at 2256951080096
+           │                   └ MongoCredential(mechanism='DEFAULT', source='admin', username='revanthnaik12_db_user', password='HipsterWong$420', mechanism_...
+           └ <function _authenticate_scram at 0x0000020D7B0C7880>
+  File "F:\rag-bot\venv\Lib\site-packages\pymongo\synchronous\auth.py", line 135, in _authenticate_scram
+    res = conn.command(source, cmd)
+          │    │       │       └ {'saslContinue': 1, 'conversationId': 1, 'payload': Binary(b'c=biws,r=Yeys1Xc2vh8Drp6p0yr9J1pJMD5IwoQJLtF/AcXCCDQ=aw3FS8+FmLb...
+          │    │       └ 'admin'
+          │    └ <function _handle_reauth.<locals>.inner at 0x0000020D7B0A80E0>
+          └ Connection(<pymongo.network_layer.NetworkingInterface object at 0x0000020D7CC47410>) CLOSED at 2256951080096
+  File "F:\rag-bot\venv\Lib\site-packages\pymongo\synchronous\helpers.py", line 47, in inner
+    return func(*args, **kwargs)
+           │     │       └ {}
+           │     └ (Connection(<pymongo.network_layer.NetworkingInterface object at 0x0000020D7CC47410>) CLOSED at 2256951080096, 'admin', {'sas...
+           └ <function Connection.command at 0x0000020D7B0A8040>
+  File "F:\rag-bot\venv\Lib\site-packages\pymongo\synchronous\pool.py", line 413, in command
+    return command(
+           └ <function command at 0x0000020D7B081E40>
+  File "F:\rag-bot\venv\Lib\site-packages\pymongo\synchronous\network.py", line 212, in command
+    helpers_shared._check_command_response(
+    │              └ <function _check_command_response at 0x0000020D7AD2DDA0>
+    └ <module 'pymongo.helpers_shared' from 'F:\\rag-bot\\venv\\Lib\\site-packages\\pymongo\\helpers_shared.py'>
+  File "F:\rag-bot\venv\Lib\site-packages\pymongo\helpers_shared.py", line 284, in _check_command_response
+    raise OperationFailure(errmsg, code, response, max_wire_version)
+          │                │       │     │         └ 25
+          │                │       │     └ {'ok': 0, 'errmsg': 'bad auth : authentication failed', 'code': 8000, 'codeName': 'AtlasError'}
+          │                │       └ 8000
+          │                └ 'bad auth : authentication failed'
+          └ <class 'pymongo.errors.OperationFailure'>
+
+pymongo.errors.OperationFailure: bad auth : authentication failed, full error: {'ok': 0, 'errmsg': 'bad auth : authentication failed', 'code': 8000, 'codeName': 'AtlasError'}
+2025-09-29 22:32:20 | ERROR | app.services.logger_service:log_error:168 | 1a6b8859 | Application error occurred
+Traceback (most recent call last):
+
+  File "<string>", line 1, in <module>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\spawn.py", line 122, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+               │     │   └ 308
+               │     └ 3
+               └ <function _main at 0x0000020D5A8132E0>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\spawn.py", line 135, in _main
+    return self._bootstrap(parent_sentinel)
+           │    │          └ 308
+           │    └ <function BaseProcess._bootstrap at 0x0000020D5A709620>
+           └ <SpawnProcess name='SpawnProcess-1' parent=21148 started>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\process.py", line 314, in _bootstrap
+    self.run()
+    │    └ <function BaseProcess.run at 0x0000020D5A708B80>
+    └ <SpawnProcess name='SpawnProcess-1' parent=21148 started>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {'config': <uvicorn.config.Config object at 0x0000020D5A7D4320>, 'target': <bound method Server.run of <uvicorn.server.Server...
+    │    │        │    │        └ <SpawnProcess name='SpawnProcess-1' parent=21148 started>
+    │    │        │    └ ()
+    │    │        └ <SpawnProcess name='SpawnProcess-1' parent=21148 started>
+    │    └ <function subprocess_started at 0x0000020D5CBB8400>
+    └ <SpawnProcess name='SpawnProcess-1' parent=21148 started>
+  File "F:\rag-bot\venv\Lib\site-packages\uvicorn\_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+    │              └ [<socket.socket fd=328, family=2, type=1, proto=6, laddr=('127.0.0.1', 8000)>]
+    └ <bound method Server.run of <uvicorn.server.Server object at 0x0000020D5CD2AFF0>>
+  File "F:\rag-bot\venv\Lib\site-packages\uvicorn\server.py", line 67, in run
+    return asyncio_run(self.serve(sockets=sockets), loop_factory=self.config.get_loop_factory())
+           │           │    │             │                      │    │      └ <function Config.get_loop_factory at 0x0000020D5CB4D620>
+           │           │    │             │                      │    └ <uvicorn.config.Config object at 0x0000020D5A7D4320>
+           │           │    │             │                      └ <uvicorn.server.Server object at 0x0000020D5CD2AFF0>
+           │           │    │             └ [<socket.socket fd=328, family=2, type=1, proto=6, laddr=('127.0.0.1', 8000)>]
+           │           │    └ <function Server.serve at 0x0000020D5CB939C0>
+           │           └ <uvicorn.server.Server object at 0x0000020D5CD2AFF0>
+           └ <function run at 0x0000020D5C43B600>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 194, in run
+    return runner.run(main)
+           │      │   └ <coroutine object Server.serve at 0x0000020D5CCE7920>
+           │      └ <function Runner.run at 0x0000020D5C4668E0>
+           └ <asyncio.runners.Runner object at 0x0000020D5A7D44A0>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           │    │     │                  └ <Task pending name='Task-1' coro=<Server.serve() running at F:\rag-bot\venv\Lib\site-packages\uvicorn\server.py:71> wait_for=...
+           │    │     └ <function BaseEventLoop.run_until_complete at 0x0000020D5C464540>
+           │    └ <_WindowsSelectorEventLoop running=True closed=False debug=False>
+           └ <asyncio.runners.Runner object at 0x0000020D5A7D44A0>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 674, in run_until_complete
+    self.run_forever()
+    │    └ <function BaseEventLoop.run_forever at 0x0000020D5C4644A0>
+    └ <_WindowsSelectorEventLoop running=True closed=False debug=False>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 641, in run_forever
+    self._run_once()
+    │    └ <function BaseEventLoop._run_once at 0x0000020D5C4662A0>
+    └ <_WindowsSelectorEventLoop running=True closed=False debug=False>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 1987, in _run_once
+    handle._run()
+    │      └ <function Handle._run at 0x0000020D5C3A05E0>
+    └ <Handle Task.task_wakeup(<Future finis...tlasError'}")>)>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+    │    │            │    │           │    └ <member '_args' of 'Handle' objects>
+    │    │            │    │           └ <Handle Task.task_wakeup(<Future finis...tlasError'}")>)>
+    │    │            │    └ <member '_callback' of 'Handle' objects>
+    │    │            └ <Handle Task.task_wakeup(<Future finis...tlasError'}")>)>
+    │    └ <member '_context' of 'Handle' objects>
+    └ <Handle Task.task_wakeup(<Future finis...tlasError'}")>)>
+
+> File "F:\rag-bot\app\integrations\vector_db.py", line 376, in health_check
+    await self.connect()
+          │    └ <function VectorDatabase.connect at 0x0000020D7B1756C0>
+          └ <app.integrations.vector_db.VectorDatabase object at 0x0000020D7AC0B860>
+
+  File "F:\rag-bot\app\integrations\vector_db.py", line 61, in connect
+    await self.client.admin.command('ping')
+          │    └ AsyncIOMotorClient(MongoClient(host=['ac-zv72iq8-shard-00-00.okflkbo.mongodb.net:27017', 'ac-zv72iq8-shard-00-02.okflkbo.mong...
+          └ <app.integrations.vector_db.VectorDatabase object at 0x0000020D7AC0B860>
+
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             │        │            └ None
+             │        └ None
+             └ None
+  File "F:\rag-bot\venv\Lib\site-packages\pymongo\_csot.py", line 125, in csot_wrapper
+    return func(self, *args, **kwargs)
+           │    │      │       └ {}
+           │    │      └ ('ping',)
+           │    └ Database(MongoClient(host=['ac-zv72iq8-shard-00-00.okflkbo.mongodb.net:27017', 'ac-zv72iq8-shard-00-02.okflkbo.mongodb.net:27...
+           └ <function Database.command at 0x0000020D7B04FC40>
+  File "F:\rag-bot\venv\Lib\site-packages\pymongo\synchronous\database.py", line 931, in command
+    with self._client._conn_for_reads(read_preference, session, operation=command_name) as (
+         │    │       │               │                │                  └ 'ping'
+         │    │       │               │                └ None
+         │    │       │               └ Primary()
+         │    │       └ <function MongoClient._conn_for_reads at 0x0000020D7B0C34C0>
+         │    └ MongoClient(host=['ac-zv72iq8-shard-00-00.okflkbo.mongodb.net:27017', 'ac-zv72iq8-shard-00-02.okflkbo.mongodb.net:27017', 'ac...
+         └ Database(MongoClient(host=['ac-zv72iq8-shard-00-00.okflkbo.mongodb.net:27017', 'ac-zv72iq8-shard-00-02.okflkbo.mongodb.net:27...
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 137, in __enter__
+    return next(self.gen)
+                │    └ <generator object MongoClient._conn_from_server at 0x0000020D7CBFB240>
+                └ <contextlib._GeneratorContextManager object at 0x0000020D7CC47050>
+  File "F:\rag-bot\venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 1867, in _conn_from_server
+    with self._checkout(server, session) as conn:
+         │    │         │       └ None
+         │    │         └ <Server <ServerDescription ('ac-zv72iq8-shard-00-01.okflkbo.mongodb.net', 27017) server_type: Unknown, rtt: None, error=Opera...
+         │    └ <function MongoClient._checkout at 0x0000020D7B0C31A0>
+         └ MongoClient(host=['ac-zv72iq8-shard-00-00.okflkbo.mongodb.net:27017', 'ac-zv72iq8-shard-00-02.okflkbo.mongodb.net:27017', 'ac...
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 137, in __enter__
+    return next(self.gen)
+                │    └ <generator object MongoClient._checkout at 0x0000020D7D4A0150>
+                └ <contextlib._GeneratorContextManager object at 0x0000020D7CC47020>
+  File "F:\rag-bot\venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 1777, in _checkout
+    with server.checkout(handler=err_handler) as conn:
+         │      │                └ <pymongo.synchronous.mongo_client._MongoClientErrorHandler object at 0x0000020D7CC318A0>
+         │      └ <function Server.checkout at 0x0000020D7B0AB420>
+         └ <Server <ServerDescription ('ac-zv72iq8-shard-00-01.okflkbo.mongodb.net', 27017) server_type: Unknown, rtt: None, error=Opera...
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 137, in __enter__
+    return next(self.gen)
+                │    └ <generator object Pool.checkout at 0x0000020D7CC047C0>
+                └ <contextlib._GeneratorContextManager object at 0x0000020D7CC46FF0>
+  File "F:\rag-bot\venv\Lib\site-packages\pymongo\synchronous\pool.py", line 1118, in checkout
+    conn = self._get_conn(checkout_started_time, handler=handler)
+           │    │         │                              └ <pymongo.synchronous.mongo_client._MongoClientErrorHandler object at 0x0000020D7CC318A0>
+           │    │         └ 378550.703
+           │    └ <function Pool._get_conn at 0x0000020D7B0A99E0>
+           └ <pymongo.synchronous.pool.Pool object at 0x0000020D7CC45D90>
+  File "F:\rag-bot\venv\Lib\site-packages\pymongo\synchronous\pool.py", line 1280, in _get_conn
+    conn = self.connect(handler=handler)
+           │    │               └ <pymongo.synchronous.mongo_client._MongoClientErrorHandler object at 0x0000020D7CC318A0>
+           │    └ <function Pool.connect at 0x0000020D7B0A9760>
+           └ <pymongo.synchronous.pool.Pool object at 0x0000020D7CC45D90>
+  File "F:\rag-bot\venv\Lib\site-packages\pymongo\synchronous\pool.py", line 1072, in connect
+    conn.authenticate()
+    │    └ <function Connection.authenticate at 0x0000020D7B0A84A0>
+    └ Connection(<pymongo.network_layer.NetworkingInterface object at 0x0000020D7CC47410>) CLOSED at 2256951080096
+  File "F:\rag-bot\venv\Lib\site-packages\pymongo\synchronous\pool.py", line 525, in authenticate
+    auth.authenticate(creds, self, reauthenticate=reauthenticate)
+    │    │            │      │                    └ False
+    │    │            │      └ Connection(<pymongo.network_layer.NetworkingInterface object at 0x0000020D7CC47410>) CLOSED at 2256951080096
+    │    │            └ MongoCredential(mechanism='DEFAULT', source='admin', username='revanthnaik12_db_user', password='HipsterWong$420', mechanism_...
+    │    └ <function authenticate at 0x0000020D7B0F8C20>
+    └ <module 'pymongo.synchronous.auth' from 'F:\\rag-bot\\venv\\Lib\\site-packages\\pymongo\\synchronous\\auth.py'>
+  File "F:\rag-bot\venv\Lib\site-packages\pymongo\synchronous\auth.py", line 450, in authenticate
+    auth_func(credentials, conn)
+    │         │            └ Connection(<pymongo.network_layer.NetworkingInterface object at 0x0000020D7CC47410>) CLOSED at 2256951080096
+    │         └ MongoCredential(mechanism='DEFAULT', source='admin', username='revanthnaik12_db_user', password='HipsterWong$420', mechanism_...
+    └ <function _authenticate_default at 0x0000020D7B0F8B80>
+  File "F:\rag-bot\venv\Lib\site-packages\pymongo\synchronous\auth.py", line 355, in _authenticate_default
+    return _authenticate_scram(credentials, conn, "SCRAM-SHA-1")
+           │                   │            └ Connection(<pymongo.network_layer.NetworkingInterface object at 0x0000020D7CC47410>) CLOSED at 2256951080096
+           │                   └ MongoCredential(mechanism='DEFAULT', source='admin', username='revanthnaik12_db_user', password='HipsterWong$420', mechanism_...
+           └ <function _authenticate_scram at 0x0000020D7B0C7880>
+  File "F:\rag-bot\venv\Lib\site-packages\pymongo\synchronous\auth.py", line 135, in _authenticate_scram
+    res = conn.command(source, cmd)
+          │    │       │       └ {'saslContinue': 1, 'conversationId': 1, 'payload': Binary(b'c=biws,r=Yeys1Xc2vh8Drp6p0yr9J1pJMD5IwoQJLtF/AcXCCDQ=aw3FS8+FmLb...
+          │    │       └ 'admin'
+          │    └ <function _handle_reauth.<locals>.inner at 0x0000020D7B0A80E0>
+          └ Connection(<pymongo.network_layer.NetworkingInterface object at 0x0000020D7CC47410>) CLOSED at 2256951080096
+  File "F:\rag-bot\venv\Lib\site-packages\pymongo\synchronous\helpers.py", line 47, in inner
+    return func(*args, **kwargs)
+           │     │       └ {}
+           │     └ (Connection(<pymongo.network_layer.NetworkingInterface object at 0x0000020D7CC47410>) CLOSED at 2256951080096, 'admin', {'sas...
+           └ <function Connection.command at 0x0000020D7B0A8040>
+  File "F:\rag-bot\venv\Lib\site-packages\pymongo\synchronous\pool.py", line 413, in command
+    return command(
+           └ <function command at 0x0000020D7B081E40>
+  File "F:\rag-bot\venv\Lib\site-packages\pymongo\synchronous\network.py", line 212, in command
+    helpers_shared._check_command_response(
+    │              └ <function _check_command_response at 0x0000020D7AD2DDA0>
+    └ <module 'pymongo.helpers_shared' from 'F:\\rag-bot\\venv\\Lib\\site-packages\\pymongo\\helpers_shared.py'>
+  File "F:\rag-bot\venv\Lib\site-packages\pymongo\helpers_shared.py", line 284, in _check_command_response
+    raise OperationFailure(errmsg, code, response, max_wire_version)
+          │                │       │     │         └ 25
+          │                │       │     └ {'ok': 0, 'errmsg': 'bad auth : authentication failed', 'code': 8000, 'codeName': 'AtlasError'}
+          │                │       └ 8000
+          │                └ 'bad auth : authentication failed'
+          └ <class 'pymongo.errors.OperationFailure'>
+
+pymongo.errors.OperationFailure: bad auth : authentication failed, full error: {'ok': 0, 'errmsg': 'bad auth : authentication failed', 'code': 8000, 'codeName': 'AtlasError'}
+2025-09-29 22:32:21 | ERROR | app.services.logger_service:log_llm_request:219 | 1a6b8859 | LLM request failed
+2025-09-29 22:32:21 | ERROR | app.services.logger_service:log_error:168 | 1a6b8859 | Application error occurred
+Traceback (most recent call last):
+
+  File "<string>", line 1, in <module>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\spawn.py", line 122, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+               │     │   └ 308
+               │     └ 3
+               └ <function _main at 0x0000020D5A8132E0>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\spawn.py", line 135, in _main
+    return self._bootstrap(parent_sentinel)
+           │    │          └ 308
+           │    └ <function BaseProcess._bootstrap at 0x0000020D5A709620>
+           └ <SpawnProcess name='SpawnProcess-1' parent=21148 started>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\process.py", line 314, in _bootstrap
+    self.run()
+    │    └ <function BaseProcess.run at 0x0000020D5A708B80>
+    └ <SpawnProcess name='SpawnProcess-1' parent=21148 started>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {'config': <uvicorn.config.Config object at 0x0000020D5A7D4320>, 'target': <bound method Server.run of <uvicorn.server.Server...
+    │    │        │    │        └ <SpawnProcess name='SpawnProcess-1' parent=21148 started>
+    │    │        │    └ ()
+    │    │        └ <SpawnProcess name='SpawnProcess-1' parent=21148 started>
+    │    └ <function subprocess_started at 0x0000020D5CBB8400>
+    └ <SpawnProcess name='SpawnProcess-1' parent=21148 started>
+  File "F:\rag-bot\venv\Lib\site-packages\uvicorn\_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+    │              └ [<socket.socket fd=328, family=2, type=1, proto=6, laddr=('127.0.0.1', 8000)>]
+    └ <bound method Server.run of <uvicorn.server.Server object at 0x0000020D5CD2AFF0>>
+  File "F:\rag-bot\venv\Lib\site-packages\uvicorn\server.py", line 67, in run
+    return asyncio_run(self.serve(sockets=sockets), loop_factory=self.config.get_loop_factory())
+           │           │    │             │                      │    │      └ <function Config.get_loop_factory at 0x0000020D5CB4D620>
+           │           │    │             │                      │    └ <uvicorn.config.Config object at 0x0000020D5A7D4320>
+           │           │    │             │                      └ <uvicorn.server.Server object at 0x0000020D5CD2AFF0>
+           │           │    │             └ [<socket.socket fd=328, family=2, type=1, proto=6, laddr=('127.0.0.1', 8000)>]
+           │           │    └ <function Server.serve at 0x0000020D5CB939C0>
+           │           └ <uvicorn.server.Server object at 0x0000020D5CD2AFF0>
+           └ <function run at 0x0000020D5C43B600>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 194, in run
+    return runner.run(main)
+           │      │   └ <coroutine object Server.serve at 0x0000020D5CCE7920>
+           │      └ <function Runner.run at 0x0000020D5C4668E0>
+           └ <asyncio.runners.Runner object at 0x0000020D5A7D44A0>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           │    │     │                  └ <Task pending name='Task-1' coro=<Server.serve() running at F:\rag-bot\venv\Lib\site-packages\uvicorn\server.py:71> wait_for=...
+           │    │     └ <function BaseEventLoop.run_until_complete at 0x0000020D5C464540>
+           │    └ <_WindowsSelectorEventLoop running=True closed=False debug=False>
+           └ <asyncio.runners.Runner object at 0x0000020D5A7D44A0>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 674, in run_until_complete
+    self.run_forever()
+    │    └ <function BaseEventLoop.run_forever at 0x0000020D5C4644A0>
+    └ <_WindowsSelectorEventLoop running=True closed=False debug=False>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 641, in run_forever
+    self._run_once()
+    │    └ <function BaseEventLoop._run_once at 0x0000020D5C4662A0>
+    └ <_WindowsSelectorEventLoop running=True closed=False debug=False>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 1987, in _run_once
+    handle._run()
+    │      └ <function Handle._run at 0x0000020D5C3A05E0>
+    └ <Handle <_asyncio.TaskStepMethWrapper object at 0x0000020D7FD0DDB0>()>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+    │    │            │    │           │    └ <member '_args' of 'Handle' objects>
+    │    │            │    │           └ <Handle <_asyncio.TaskStepMethWrapper object at 0x0000020D7FD0DDB0>()>
+    │    │            │    └ <member '_callback' of 'Handle' objects>
+    │    │            └ <Handle <_asyncio.TaskStepMethWrapper object at 0x0000020D7FD0DDB0>()>
+    │    └ <member '_context' of 'Handle' objects>
+    └ <Handle <_asyncio.TaskStepMethWrapper object at 0x0000020D7FD0DDB0>()>
+
+  File "F:\rag-bot\app\integrations\llm_client.py", line 339, in health_check
+    test_result = await self.generate_response(
+                        │    └ <function LLMClient.generate_response at 0x0000020D7C7536A0>
+                        └ <app.integrations.llm_client.LLMClient object at 0x0000020D7C600920>
+
+  File "F:\rag-bot\venv\Lib\site-packages\tenacity\asyncio\__init__.py", line 189, in async_wrapped
+    return await copy(fn, *args, **kwargs)
+                 │    │    │       └ {'prompt': 'Hello', 'context': '', 'temperature': 0.1, 'max_tokens': 10}
+                 │    │    └ (<app.integrations.llm_client.LLMClient object at 0x0000020D7C600920>,)
+                 │    └ <function LLMClient.generate_response at 0x0000020D7C753420>
+                 └ <AsyncRetrying object at 0x20d7d4728a0 (stop=<tenacity.stop.stop_after_attempt object at 0x0000020D7B1805C0>, wait=<tenacity....
+  File "F:\rag-bot\venv\Lib\site-packages\tenacity\asyncio\__init__.py", line 114, in __call__
+    result = await fn(*args, **kwargs)
+                   │   │       └ {'prompt': 'Hello', 'context': '', 'temperature': 0.1, 'max_tokens': 10}
+                   │   └ (<app.integrations.llm_client.LLMClient object at 0x0000020D7C600920>,)
+                   └ <function LLMClient.generate_response at 0x0000020D7C753420>
+
+> File "F:\rag-bot\app\integrations\llm_client.py", line 135, in generate_response
+    response = await client.chat.completions.create(
+                     │      │    │           └ <function AsyncCompletions.create at 0x0000020D7D4C1260>
+                     │      │    └ <openai.resources.chat.completions.completions.AsyncCompletions object at 0x0000020D7D4B2360>
+                     │      └ <openai.resources.chat.chat.AsyncChat object at 0x0000020D7D4B2510>
+                     └ <openai.lib.azure.AsyncAzureOpenAI object at 0x0000020D7D4B1190>
+
+  File "F:\rag-bot\venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2585, in create
+    return await self._post(
+                 │    └ <bound method AsyncAPIClient.post of <openai.lib.azure.AsyncAzureOpenAI object at 0x0000020D7D4B1190>>
+                 └ <openai.resources.chat.completions.completions.AsyncCompletions object at 0x0000020D7D4B2360>
+  File "F:\rag-bot\venv\Lib\site-packages\openai\_base_client.py", line 1794, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+                 │    │       │        │            │                  └ openai.AsyncStream[openai.types.chat.chat_completion_chunk.ChatCompletionChunk]
+                 │    │       │        │            └ False
+                 │    │       │        └ FinalRequestOptions(method='post', url='/chat/completions', params={}, headers=NOT_GIVEN, max_retries=NOT_GIVEN, timeout=NOT_...
+                 │    │       └ <class 'openai.types.chat.chat_completion.ChatCompletion'>
+                 │    └ <function AsyncAPIClient.request at 0x0000020D7C5EEC00>
+                 └ <openai.lib.azure.AsyncAzureOpenAI object at 0x0000020D7D4B1190>
+  File "F:\rag-bot\venv\Lib\site-packages\openai\_base_client.py", line 1594, in request
+    raise self._make_status_error_from_response(err.response) from None
+          │    └ <function BaseClient._make_status_error_from_response at 0x0000020D7C5D7D80>
+          └ <openai.lib.azure.AsyncAzureOpenAI object at 0x0000020D7D4B1190>
+
+openai.AuthenticationError: Error code: 401 - {'error': {'code': '401', 'message': 'Access denied due to invalid subscription key or wrong API endpoint. Make sure to provide a valid key for an active subscription and use a correct regional API endpoint for your resource.'}}
+2025-09-29 22:32:25 | ERROR | app.services.logger_service:log_llm_request:219 | 1a6b8859 | LLM request failed
+2025-09-29 22:32:25 | ERROR | app.services.logger_service:log_error:168 | 1a6b8859 | Application error occurred
+Traceback (most recent call last):
+
+  File "<string>", line 1, in <module>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\spawn.py", line 122, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+               │     │   └ 308
+               │     └ 3
+               └ <function _main at 0x0000020D5A8132E0>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\spawn.py", line 135, in _main
+    return self._bootstrap(parent_sentinel)
+           │    │          └ 308
+           │    └ <function BaseProcess._bootstrap at 0x0000020D5A709620>
+           └ <SpawnProcess name='SpawnProcess-1' parent=21148 started>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\process.py", line 314, in _bootstrap
+    self.run()
+    │    └ <function BaseProcess.run at 0x0000020D5A708B80>
+    └ <SpawnProcess name='SpawnProcess-1' parent=21148 started>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {'config': <uvicorn.config.Config object at 0x0000020D5A7D4320>, 'target': <bound method Server.run of <uvicorn.server.Server...
+    │    │        │    │        └ <SpawnProcess name='SpawnProcess-1' parent=21148 started>
+    │    │        │    └ ()
+    │    │        └ <SpawnProcess name='SpawnProcess-1' parent=21148 started>
+    │    └ <function subprocess_started at 0x0000020D5CBB8400>
+    └ <SpawnProcess name='SpawnProcess-1' parent=21148 started>
+  File "F:\rag-bot\venv\Lib\site-packages\uvicorn\_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+    │              └ [<socket.socket fd=328, family=2, type=1, proto=6, laddr=('127.0.0.1', 8000)>]
+    └ <bound method Server.run of <uvicorn.server.Server object at 0x0000020D5CD2AFF0>>
+  File "F:\rag-bot\venv\Lib\site-packages\uvicorn\server.py", line 67, in run
+    return asyncio_run(self.serve(sockets=sockets), loop_factory=self.config.get_loop_factory())
+           │           │    │             │                      │    │      └ <function Config.get_loop_factory at 0x0000020D5CB4D620>
+           │           │    │             │                      │    └ <uvicorn.config.Config object at 0x0000020D5A7D4320>
+           │           │    │             │                      └ <uvicorn.server.Server object at 0x0000020D5CD2AFF0>
+           │           │    │             └ [<socket.socket fd=328, family=2, type=1, proto=6, laddr=('127.0.0.1', 8000)>]
+           │           │    └ <function Server.serve at 0x0000020D5CB939C0>
+           │           └ <uvicorn.server.Server object at 0x0000020D5CD2AFF0>
+           └ <function run at 0x0000020D5C43B600>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 194, in run
+    return runner.run(main)
+           │      │   └ <coroutine object Server.serve at 0x0000020D5CCE7920>
+           │      └ <function Runner.run at 0x0000020D5C4668E0>
+           └ <asyncio.runners.Runner object at 0x0000020D5A7D44A0>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           │    │     │                  └ <Task pending name='Task-1' coro=<Server.serve() running at F:\rag-bot\venv\Lib\site-packages\uvicorn\server.py:71> wait_for=...
+           │    │     └ <function BaseEventLoop.run_until_complete at 0x0000020D5C464540>
+           │    └ <_WindowsSelectorEventLoop running=True closed=False debug=False>
+           └ <asyncio.runners.Runner object at 0x0000020D5A7D44A0>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 674, in run_until_complete
+    self.run_forever()
+    │    └ <function BaseEventLoop.run_forever at 0x0000020D5C4644A0>
+    └ <_WindowsSelectorEventLoop running=True closed=False debug=False>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 641, in run_forever
+    self._run_once()
+    │    └ <function BaseEventLoop._run_once at 0x0000020D5C4662A0>
+    └ <_WindowsSelectorEventLoop running=True closed=False debug=False>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 1987, in _run_once
+    handle._run()
+    │      └ <function Handle._run at 0x0000020D5C3A05E0>
+    └ <Handle <_asyncio.TaskStepMethWrapper object at 0x0000020D0002B040>()>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+    │    │            │    │           │    └ <member '_args' of 'Handle' objects>
+    │    │            │    │           └ <Handle <_asyncio.TaskStepMethWrapper object at 0x0000020D0002B040>()>
+    │    │            │    └ <member '_callback' of 'Handle' objects>
+    │    │            └ <Handle <_asyncio.TaskStepMethWrapper object at 0x0000020D0002B040>()>
+    │    └ <member '_context' of 'Handle' objects>
+    └ <Handle <_asyncio.TaskStepMethWrapper object at 0x0000020D0002B040>()>
+
+  File "F:\rag-bot\app\integrations\llm_client.py", line 339, in health_check
+    test_result = await self.generate_response(
+                        │    └ <function LLMClient.generate_response at 0x0000020D7C7536A0>
+                        └ <app.integrations.llm_client.LLMClient object at 0x0000020D7C600920>
+
+  File "F:\rag-bot\venv\Lib\site-packages\tenacity\asyncio\__init__.py", line 189, in async_wrapped
+    return await copy(fn, *args, **kwargs)
+                 │    │    │       └ {'prompt': 'Hello', 'context': '', 'temperature': 0.1, 'max_tokens': 10}
+                 │    │    └ (<app.integrations.llm_client.LLMClient object at 0x0000020D7C600920>,)
+                 │    └ <function LLMClient.generate_response at 0x0000020D7C753420>
+                 └ <AsyncRetrying object at 0x20d7d4728a0 (stop=<tenacity.stop.stop_after_attempt object at 0x0000020D7B1805C0>, wait=<tenacity....
+  File "F:\rag-bot\venv\Lib\site-packages\tenacity\asyncio\__init__.py", line 114, in __call__
+    result = await fn(*args, **kwargs)
+                   │   │       └ {'prompt': 'Hello', 'context': '', 'temperature': 0.1, 'max_tokens': 10}
+                   │   └ (<app.integrations.llm_client.LLMClient object at 0x0000020D7C600920>,)
+                   └ <function LLMClient.generate_response at 0x0000020D7C753420>
+
+> File "F:\rag-bot\app\integrations\llm_client.py", line 135, in generate_response
+    response = await client.chat.completions.create(
+                     │      │    │           └ <function AsyncCompletions.create at 0x0000020D7D4C1260>
+                     │      │    └ <openai.resources.chat.completions.completions.AsyncCompletions object at 0x0000020D7D4B2360>
+                     │      └ <openai.resources.chat.chat.AsyncChat object at 0x0000020D7D4B2510>
+                     └ <openai.lib.azure.AsyncAzureOpenAI object at 0x0000020D7D4B1190>
+
+  File "F:\rag-bot\venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2585, in create
+    return await self._post(
+                 │    └ <bound method AsyncAPIClient.post of <openai.lib.azure.AsyncAzureOpenAI object at 0x0000020D7D4B1190>>
+                 └ <openai.resources.chat.completions.completions.AsyncCompletions object at 0x0000020D7D4B2360>
+  File "F:\rag-bot\venv\Lib\site-packages\openai\_base_client.py", line 1794, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+                 │    │       │        │            │                  └ openai.AsyncStream[openai.types.chat.chat_completion_chunk.ChatCompletionChunk]
+                 │    │       │        │            └ False
+                 │    │       │        └ FinalRequestOptions(method='post', url='/chat/completions', params={}, headers=NOT_GIVEN, max_retries=NOT_GIVEN, timeout=NOT_...
+                 │    │       └ <class 'openai.types.chat.chat_completion.ChatCompletion'>
+                 │    └ <function AsyncAPIClient.request at 0x0000020D7C5EEC00>
+                 └ <openai.lib.azure.AsyncAzureOpenAI object at 0x0000020D7D4B1190>
+  File "F:\rag-bot\venv\Lib\site-packages\openai\_base_client.py", line 1594, in request
+    raise self._make_status_error_from_response(err.response) from None
+          │    └ <function BaseClient._make_status_error_from_response at 0x0000020D7C5D7D80>
+          └ <openai.lib.azure.AsyncAzureOpenAI object at 0x0000020D7D4B1190>
+
+openai.AuthenticationError: Error code: 401 - {'error': {'code': '401', 'message': 'Access denied due to invalid subscription key or wrong API endpoint. Make sure to provide a valid key for an active subscription and use a correct regional API endpoint for your resource.'}}
+2025-09-29 22:32:29 | ERROR | app.services.logger_service:log_llm_request:219 | 1a6b8859 | LLM request failed
+2025-09-29 22:32:29 | ERROR | app.services.logger_service:log_error:168 | 1a6b8859 | Application error occurred
+Traceback (most recent call last):
+
+  File "<string>", line 1, in <module>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\spawn.py", line 122, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+               │     │   └ 308
+               │     └ 3
+               └ <function _main at 0x0000020D5A8132E0>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\spawn.py", line 135, in _main
+    return self._bootstrap(parent_sentinel)
+           │    │          └ 308
+           │    └ <function BaseProcess._bootstrap at 0x0000020D5A709620>
+           └ <SpawnProcess name='SpawnProcess-1' parent=21148 started>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\process.py", line 314, in _bootstrap
+    self.run()
+    │    └ <function BaseProcess.run at 0x0000020D5A708B80>
+    └ <SpawnProcess name='SpawnProcess-1' parent=21148 started>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {'config': <uvicorn.config.Config object at 0x0000020D5A7D4320>, 'target': <bound method Server.run of <uvicorn.server.Server...
+    │    │        │    │        └ <SpawnProcess name='SpawnProcess-1' parent=21148 started>
+    │    │        │    └ ()
+    │    │        └ <SpawnProcess name='SpawnProcess-1' parent=21148 started>
+    │    └ <function subprocess_started at 0x0000020D5CBB8400>
+    └ <SpawnProcess name='SpawnProcess-1' parent=21148 started>
+  File "F:\rag-bot\venv\Lib\site-packages\uvicorn\_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+    │              └ [<socket.socket fd=328, family=2, type=1, proto=6, laddr=('127.0.0.1', 8000)>]
+    └ <bound method Server.run of <uvicorn.server.Server object at 0x0000020D5CD2AFF0>>
+  File "F:\rag-bot\venv\Lib\site-packages\uvicorn\server.py", line 67, in run
+    return asyncio_run(self.serve(sockets=sockets), loop_factory=self.config.get_loop_factory())
+           │           │    │             │                      │    │      └ <function Config.get_loop_factory at 0x0000020D5CB4D620>
+           │           │    │             │                      │    └ <uvicorn.config.Config object at 0x0000020D5A7D4320>
+           │           │    │             │                      └ <uvicorn.server.Server object at 0x0000020D5CD2AFF0>
+           │           │    │             └ [<socket.socket fd=328, family=2, type=1, proto=6, laddr=('127.0.0.1', 8000)>]
+           │           │    └ <function Server.serve at 0x0000020D5CB939C0>
+           │           └ <uvicorn.server.Server object at 0x0000020D5CD2AFF0>
+           └ <function run at 0x0000020D5C43B600>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 194, in run
+    return runner.run(main)
+           │      │   └ <coroutine object Server.serve at 0x0000020D5CCE7920>
+           │      └ <function Runner.run at 0x0000020D5C4668E0>
+           └ <asyncio.runners.Runner object at 0x0000020D5A7D44A0>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           │    │     │                  └ <Task pending name='Task-1' coro=<Server.serve() running at F:\rag-bot\venv\Lib\site-packages\uvicorn\server.py:71> wait_for=...
+           │    │     └ <function BaseEventLoop.run_until_complete at 0x0000020D5C464540>
+           │    └ <_WindowsSelectorEventLoop running=True closed=False debug=False>
+           └ <asyncio.runners.Runner object at 0x0000020D5A7D44A0>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 674, in run_until_complete
+    self.run_forever()
+    │    └ <function BaseEventLoop.run_forever at 0x0000020D5C4644A0>
+    └ <_WindowsSelectorEventLoop running=True closed=False debug=False>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 641, in run_forever
+    self._run_once()
+    │    └ <function BaseEventLoop._run_once at 0x0000020D5C4662A0>
+    └ <_WindowsSelectorEventLoop running=True closed=False debug=False>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 1987, in _run_once
+    handle._run()
+    │      └ <function Handle._run at 0x0000020D5C3A05E0>
+    └ <Handle <_asyncio.TaskStepMethWrapper object at 0x0000020D000282E0>()>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+    │    │            │    │           │    └ <member '_args' of 'Handle' objects>
+    │    │            │    │           └ <Handle <_asyncio.TaskStepMethWrapper object at 0x0000020D000282E0>()>
+    │    │            │    └ <member '_callback' of 'Handle' objects>
+    │    │            └ <Handle <_asyncio.TaskStepMethWrapper object at 0x0000020D000282E0>()>
+    │    └ <member '_context' of 'Handle' objects>
+    └ <Handle <_asyncio.TaskStepMethWrapper object at 0x0000020D000282E0>()>
+
+  File "F:\rag-bot\app\integrations\llm_client.py", line 339, in health_check
+    test_result = await self.generate_response(
+                        │    └ <function LLMClient.generate_response at 0x0000020D7C7536A0>
+                        └ <app.integrations.llm_client.LLMClient object at 0x0000020D7C600920>
+
+  File "F:\rag-bot\venv\Lib\site-packages\tenacity\asyncio\__init__.py", line 189, in async_wrapped
+    return await copy(fn, *args, **kwargs)
+                 │    │    │       └ {'prompt': 'Hello', 'context': '', 'temperature': 0.1, 'max_tokens': 10}
+                 │    │    └ (<app.integrations.llm_client.LLMClient object at 0x0000020D7C600920>,)
+                 │    └ <function LLMClient.generate_response at 0x0000020D7C753420>
+                 └ <AsyncRetrying object at 0x20d7d4728a0 (stop=<tenacity.stop.stop_after_attempt object at 0x0000020D7B1805C0>, wait=<tenacity....
+  File "F:\rag-bot\venv\Lib\site-packages\tenacity\asyncio\__init__.py", line 114, in __call__
+    result = await fn(*args, **kwargs)
+                   │   │       └ {'prompt': 'Hello', 'context': '', 'temperature': 0.1, 'max_tokens': 10}
+                   │   └ (<app.integrations.llm_client.LLMClient object at 0x0000020D7C600920>,)
+                   └ <function LLMClient.generate_response at 0x0000020D7C753420>
+
+> File "F:\rag-bot\app\integrations\llm_client.py", line 135, in generate_response
+    response = await client.chat.completions.create(
+                     │      │    │           └ <function AsyncCompletions.create at 0x0000020D7D4C1260>
+                     │      │    └ <openai.resources.chat.completions.completions.AsyncCompletions object at 0x0000020D7D4B2360>
+                     │      └ <openai.resources.chat.chat.AsyncChat object at 0x0000020D7D4B2510>
+                     └ <openai.lib.azure.AsyncAzureOpenAI object at 0x0000020D7D4B1190>
+
+  File "F:\rag-bot\venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2585, in create
+    return await self._post(
+                 │    └ <bound method AsyncAPIClient.post of <openai.lib.azure.AsyncAzureOpenAI object at 0x0000020D7D4B1190>>
+                 └ <openai.resources.chat.completions.completions.AsyncCompletions object at 0x0000020D7D4B2360>
+  File "F:\rag-bot\venv\Lib\site-packages\openai\_base_client.py", line 1794, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+                 │    │       │        │            │                  └ openai.AsyncStream[openai.types.chat.chat_completion_chunk.ChatCompletionChunk]
+                 │    │       │        │            └ False
+                 │    │       │        └ FinalRequestOptions(method='post', url='/chat/completions', params={}, headers=NOT_GIVEN, max_retries=NOT_GIVEN, timeout=NOT_...
+                 │    │       └ <class 'openai.types.chat.chat_completion.ChatCompletion'>
+                 │    └ <function AsyncAPIClient.request at 0x0000020D7C5EEC00>
+                 └ <openai.lib.azure.AsyncAzureOpenAI object at 0x0000020D7D4B1190>
+  File "F:\rag-bot\venv\Lib\site-packages\openai\_base_client.py", line 1594, in request
+    raise self._make_status_error_from_response(err.response) from None
+          │    └ <function BaseClient._make_status_error_from_response at 0x0000020D7C5D7D80>
+          └ <openai.lib.azure.AsyncAzureOpenAI object at 0x0000020D7D4B1190>
+
+openai.AuthenticationError: Error code: 401 - {'error': {'code': '401', 'message': 'Access denied due to invalid subscription key or wrong API endpoint. Make sure to provide a valid key for an active subscription and use a correct regional API endpoint for your resource.'}}
+2025-09-29 22:32:29 | ERROR | app.services.logger_service:log_error:168 | 1a6b8859 | Application error occurred
+Traceback (most recent call last):
+
+  File "F:\rag-bot\venv\Lib\site-packages\tenacity\asyncio\__init__.py", line 114, in __call__
+    result = await fn(*args, **kwargs)
+                   │   │       └ {'prompt': 'Hello', 'context': '', 'temperature': 0.1, 'max_tokens': 10}
+                   │   └ (<app.integrations.llm_client.LLMClient object at 0x0000020D7C600920>,)
+                   └ <function LLMClient.generate_response at 0x0000020D7C753420>
+
+  File "F:\rag-bot\app\integrations\llm_client.py", line 135, in generate_response
+    response = await client.chat.completions.create(
+                     │      │    │           └ <function AsyncCompletions.create at 0x0000020D7D4C1260>
+                     │      │    └ <openai.resources.chat.completions.completions.AsyncCompletions object at 0x0000020D7D4B2360>
+                     │      └ <openai.resources.chat.chat.AsyncChat object at 0x0000020D7D4B2510>
+                     └ <openai.lib.azure.AsyncAzureOpenAI object at 0x0000020D7D4B1190>
+
+  File "F:\rag-bot\venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2585, in create
+    return await self._post(
+                 │    └ <bound method AsyncAPIClient.post of <openai.lib.azure.AsyncAzureOpenAI object at 0x0000020D7D4B1190>>
+                 └ <openai.resources.chat.completions.completions.AsyncCompletions object at 0x0000020D7D4B2360>
+  File "F:\rag-bot\venv\Lib\site-packages\openai\_base_client.py", line 1794, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+                 │    │       │        │            │                  └ openai.AsyncStream[openai.types.chat.chat_completion_chunk.ChatCompletionChunk]
+                 │    │       │        │            └ False
+                 │    │       │        └ FinalRequestOptions(method='post', url='/chat/completions', params={}, headers=NOT_GIVEN, max_retries=NOT_GIVEN, timeout=NOT_...
+                 │    │       └ <class 'openai.types.chat.chat_completion.ChatCompletion'>
+                 │    └ <function AsyncAPIClient.request at 0x0000020D7C5EEC00>
+                 └ <openai.lib.azure.AsyncAzureOpenAI object at 0x0000020D7D4B1190>
+  File "F:\rag-bot\venv\Lib\site-packages\openai\_base_client.py", line 1594, in request
+    raise self._make_status_error_from_response(err.response) from None
+          │    └ <function BaseClient._make_status_error_from_response at 0x0000020D7C5D7D80>
+          └ <openai.lib.azure.AsyncAzureOpenAI object at 0x0000020D7D4B1190>
+
+openai.AuthenticationError: Error code: 401 - {'error': {'code': '401', 'message': 'Access denied due to invalid subscription key or wrong API endpoint. Make sure to provide a valid key for an active subscription and use a correct regional API endpoint for your resource.'}}
+
+
+The above exception was the direct cause of the following exception:
+
+
+Traceback (most recent call last):
+
+  File "<string>", line 1, in <module>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\spawn.py", line 122, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+               │     │   └ 308
+               │     └ 3
+               └ <function _main at 0x0000020D5A8132E0>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\spawn.py", line 135, in _main
+    return self._bootstrap(parent_sentinel)
+           │    │          └ 308
+           │    └ <function BaseProcess._bootstrap at 0x0000020D5A709620>
+           └ <SpawnProcess name='SpawnProcess-1' parent=21148 started>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\process.py", line 314, in _bootstrap
+    self.run()
+    │    └ <function BaseProcess.run at 0x0000020D5A708B80>
+    └ <SpawnProcess name='SpawnProcess-1' parent=21148 started>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {'config': <uvicorn.config.Config object at 0x0000020D5A7D4320>, 'target': <bound method Server.run of <uvicorn.server.Server...
+    │    │        │    │        └ <SpawnProcess name='SpawnProcess-1' parent=21148 started>
+    │    │        │    └ ()
+    │    │        └ <SpawnProcess name='SpawnProcess-1' parent=21148 started>
+    │    └ <function subprocess_started at 0x0000020D5CBB8400>
+    └ <SpawnProcess name='SpawnProcess-1' parent=21148 started>
+  File "F:\rag-bot\venv\Lib\site-packages\uvicorn\_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+    │              └ [<socket.socket fd=328, family=2, type=1, proto=6, laddr=('127.0.0.1', 8000)>]
+    └ <bound method Server.run of <uvicorn.server.Server object at 0x0000020D5CD2AFF0>>
+  File "F:\rag-bot\venv\Lib\site-packages\uvicorn\server.py", line 67, in run
+    return asyncio_run(self.serve(sockets=sockets), loop_factory=self.config.get_loop_factory())
+           │           │    │             │                      │    │      └ <function Config.get_loop_factory at 0x0000020D5CB4D620>
+           │           │    │             │                      │    └ <uvicorn.config.Config object at 0x0000020D5A7D4320>
+           │           │    │             │                      └ <uvicorn.server.Server object at 0x0000020D5CD2AFF0>
+           │           │    │             └ [<socket.socket fd=328, family=2, type=1, proto=6, laddr=('127.0.0.1', 8000)>]
+           │           │    └ <function Server.serve at 0x0000020D5CB939C0>
+           │           └ <uvicorn.server.Server object at 0x0000020D5CD2AFF0>
+           └ <function run at 0x0000020D5C43B600>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 194, in run
+    return runner.run(main)
+           │      │   └ <coroutine object Server.serve at 0x0000020D5CCE7920>
+           │      └ <function Runner.run at 0x0000020D5C4668E0>
+           └ <asyncio.runners.Runner object at 0x0000020D5A7D44A0>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           │    │     │                  └ <Task pending name='Task-1' coro=<Server.serve() running at F:\rag-bot\venv\Lib\site-packages\uvicorn\server.py:71> wait_for=...
+           │    │     └ <function BaseEventLoop.run_until_complete at 0x0000020D5C464540>
+           │    └ <_WindowsSelectorEventLoop running=True closed=False debug=False>
+           └ <asyncio.runners.Runner object at 0x0000020D5A7D44A0>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 674, in run_until_complete
+    self.run_forever()
+    │    └ <function BaseEventLoop.run_forever at 0x0000020D5C4644A0>
+    └ <_WindowsSelectorEventLoop running=True closed=False debug=False>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 641, in run_forever
+    self._run_once()
+    │    └ <function BaseEventLoop._run_once at 0x0000020D5C4662A0>
+    └ <_WindowsSelectorEventLoop running=True closed=False debug=False>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 1987, in _run_once
+    handle._run()
+    │      └ <function Handle._run at 0x0000020D5C3A05E0>
+    └ <Handle <_asyncio.TaskStepMethWrapper object at 0x0000020D000282E0>()>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+    │    │            │    │           │    └ <member '_args' of 'Handle' objects>
+    │    │            │    │           └ <Handle <_asyncio.TaskStepMethWrapper object at 0x0000020D000282E0>()>
+    │    │            │    └ <member '_callback' of 'Handle' objects>
+    │    │            └ <Handle <_asyncio.TaskStepMethWrapper object at 0x0000020D000282E0>()>
+    │    └ <member '_context' of 'Handle' objects>
+    └ <Handle <_asyncio.TaskStepMethWrapper object at 0x0000020D000282E0>()>
+
+> File "F:\rag-bot\app\integrations\llm_client.py", line 339, in health_check
+    test_result = await self.generate_response(
+                        │    └ <function LLMClient.generate_response at 0x0000020D7C7536A0>
+                        └ <app.integrations.llm_client.LLMClient object at 0x0000020D7C600920>
+
+  File "F:\rag-bot\venv\Lib\site-packages\tenacity\asyncio\__init__.py", line 189, in async_wrapped
+    return await copy(fn, *args, **kwargs)
+                 │    │    │       └ {'prompt': 'Hello', 'context': '', 'temperature': 0.1, 'max_tokens': 10}
+                 │    │    └ (<app.integrations.llm_client.LLMClient object at 0x0000020D7C600920>,)
+                 │    └ <function LLMClient.generate_response at 0x0000020D7C753420>
+                 └ <AsyncRetrying object at 0x20d7d4728a0 (stop=<tenacity.stop.stop_after_attempt object at 0x0000020D7B1805C0>, wait=<tenacity....
+  File "F:\rag-bot\venv\Lib\site-packages\tenacity\asyncio\__init__.py", line 111, in __call__
+    do = await self.iter(retry_state=retry_state)
+               │    │                └ <RetryCallState 2256959902432: attempt #3; slept for 8.0; last result: failed (AuthenticationError Error code: 401 - {'error'...
+               │    └ <function AsyncRetrying.iter at 0x0000020D5F6C5440>
+               └ <AsyncRetrying object at 0x20d7d4728a0 (stop=<tenacity.stop.stop_after_attempt object at 0x0000020D7B1805C0>, wait=<tenacity....
+  File "F:\rag-bot\venv\Lib\site-packages\tenacity\asyncio\__init__.py", line 153, in iter
+    result = await action(retry_state)
+                   │      └ <RetryCallState 2256959902432: attempt #3; slept for 8.0; last result: failed (AuthenticationError Error code: 401 - {'error'...
+                   └ <function wrap_to_async_func.<locals>.inner at 0x0000020D000B4B80>
+  File "F:\rag-bot\venv\Lib\site-packages\tenacity\_utils.py", line 99, in inner
+    return call(*args, **kwargs)
+           │     │       └ {}
+           │     └ (<RetryCallState 2256959902432: attempt #3; slept for 8.0; last result: failed (AuthenticationError Error code: 401 - {'error...
+           └ <function BaseRetrying._post_stop_check_actions.<locals>.exc_check at 0x0000020D7D491940>
+  File "F:\rag-bot\venv\Lib\site-packages\tenacity\__init__.py", line 421, in exc_check
+    raise retry_exc from fut.exception()
+          │              │   └ <function Future.exception at 0x0000020D5AAAED40>
+          │              └ <Future at 0x20d7cafb350 state=finished raised AuthenticationError>
+          └ RetryError(<Future at 0x20d7cafb350 state=finished raised AuthenticationError>)
+
+tenacity.RetryError: RetryError[<Future at 0x20d7cafb350 state=finished raised AuthenticationError>]
+2025-09-29 22:37:05 | ERROR | app.services.logger_service:log_error:168 | f2d655c6 | Application error occurred
+Traceback (most recent call last):
+
+  File "<string>", line 1, in <module>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\spawn.py", line 122, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+               │     │   └ 184
+               │     └ 3
+               └ <function _main at 0x00000167775732E0>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\spawn.py", line 135, in _main
+    return self._bootstrap(parent_sentinel)
+           │    │          └ 184
+           │    └ <function BaseProcess._bootstrap at 0x0000016777469620>
+           └ <SpawnProcess name='SpawnProcess-1' parent=16912 started>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\process.py", line 314, in _bootstrap
+    self.run()
+    │    └ <function BaseProcess.run at 0x0000016777468B80>
+    └ <SpawnProcess name='SpawnProcess-1' parent=16912 started>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {'config': <uvicorn.config.Config object at 0x0000016777534320>, 'target': <bound method Server.run of <uvicorn.server.Server...
+    │    │        │    │        └ <SpawnProcess name='SpawnProcess-1' parent=16912 started>
+    │    │        │    └ ()
+    │    │        └ <SpawnProcess name='SpawnProcess-1' parent=16912 started>
+    │    └ <function subprocess_started at 0x0000016779968400>
+    └ <SpawnProcess name='SpawnProcess-1' parent=16912 started>
+  File "F:\rag-bot\venv\Lib\site-packages\uvicorn\_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+    │              └ [<socket.socket fd=788, family=2, type=1, proto=6, laddr=('127.0.0.1', 8000)>]
+    └ <bound method Server.run of <uvicorn.server.Server object at 0x0000016779ADAFF0>>
+  File "F:\rag-bot\venv\Lib\site-packages\uvicorn\server.py", line 67, in run
+    return asyncio_run(self.serve(sockets=sockets), loop_factory=self.config.get_loop_factory())
+           │           │    │             │                      │    │      └ <function Config.get_loop_factory at 0x00000167798FD620>
+           │           │    │             │                      │    └ <uvicorn.config.Config object at 0x0000016777534320>
+           │           │    │             │                      └ <uvicorn.server.Server object at 0x0000016779ADAFF0>
+           │           │    │             └ [<socket.socket fd=788, family=2, type=1, proto=6, laddr=('127.0.0.1', 8000)>]
+           │           │    └ <function Server.serve at 0x00000167799439C0>
+           │           └ <uvicorn.server.Server object at 0x0000016779ADAFF0>
+           └ <function run at 0x00000167791EB600>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 194, in run
+    return runner.run(main)
+           │      │   └ <coroutine object Server.serve at 0x0000016779A97920>
+           │      └ <function Runner.run at 0x00000167792168E0>
+           └ <asyncio.runners.Runner object at 0x00000167775344A0>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           │    │     │                  └ <Task pending name='Task-1' coro=<Server.serve() running at F:\rag-bot\venv\Lib\site-packages\uvicorn\server.py:71> wait_for=...
+           │    │     └ <function BaseEventLoop.run_until_complete at 0x0000016779214540>
+           │    └ <_WindowsSelectorEventLoop running=True closed=False debug=False>
+           └ <asyncio.runners.Runner object at 0x00000167775344A0>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 674, in run_until_complete
+    self.run_forever()
+    │    └ <function BaseEventLoop.run_forever at 0x00000167792144A0>
+    └ <_WindowsSelectorEventLoop running=True closed=False debug=False>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 641, in run_forever
+    self._run_once()
+    │    └ <function BaseEventLoop._run_once at 0x00000167792162A0>
+    └ <_WindowsSelectorEventLoop running=True closed=False debug=False>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 1987, in _run_once
+    handle._run()
+    │      └ <function Handle._run at 0x00000167791505E0>
+    └ <Handle Task.task_wakeup(<Future finis...tlasError'}")>)>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+    │    │            │    │           │    └ <member '_args' of 'Handle' objects>
+    │    │            │    │           └ <Handle Task.task_wakeup(<Future finis...tlasError'}")>)>
+    │    │            │    └ <member '_callback' of 'Handle' objects>
+    │    │            └ <Handle Task.task_wakeup(<Future finis...tlasError'}")>)>
+    │    └ <member '_context' of 'Handle' objects>
+    └ <Handle Task.task_wakeup(<Future finis...tlasError'}")>)>
+
+  File "F:\rag-bot\app\integrations\vector_db.py", line 376, in health_check
+    await self.connect()
+          │    └ <function VectorDatabase.connect at 0x0000016717F456C0>
+          └ <app.integrations.vector_db.VectorDatabase object at 0x00000167179DB530>
+
+> File "F:\rag-bot\app\integrations\vector_db.py", line 61, in connect
+    await self.client.admin.command('ping')
+          │    └ AsyncIOMotorClient(MongoClient(host=['ac-zv72iq8-shard-00-01.okflkbo.mongodb.net:27017', 'ac-zv72iq8-shard-00-02.okflkbo.mong...
+          └ <app.integrations.vector_db.VectorDatabase object at 0x00000167179DB530>
+
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             │        │            └ None
+             │        └ None
+             └ None
+  File "F:\rag-bot\venv\Lib\site-packages\pymongo\_csot.py", line 125, in csot_wrapper
+    return func(self, *args, **kwargs)
+           │    │      │       └ {}
+           │    │      └ ('ping',)
+           │    └ Database(MongoClient(host=['ac-zv72iq8-shard-00-01.okflkbo.mongodb.net:27017', 'ac-zv72iq8-shard-00-02.okflkbo.mongodb.net:27...
+           └ <function Database.command at 0x0000016717E1FC40>
+  File "F:\rag-bot\venv\Lib\site-packages\pymongo\synchronous\database.py", line 931, in command
+    with self._client._conn_for_reads(read_preference, session, operation=command_name) as (
+         │    │       │               │                │                  └ 'ping'
+         │    │       │               │                └ None
+         │    │       │               └ Primary()
+         │    │       └ <function MongoClient._conn_for_reads at 0x0000016717E934C0>
+         │    └ MongoClient(host=['ac-zv72iq8-shard-00-01.okflkbo.mongodb.net:27017', 'ac-zv72iq8-shard-00-02.okflkbo.mongodb.net:27017', 'ac...
+         └ Database(MongoClient(host=['ac-zv72iq8-shard-00-01.okflkbo.mongodb.net:27017', 'ac-zv72iq8-shard-00-02.okflkbo.mongodb.net:27...
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 137, in __enter__
+    return next(self.gen)
+                │    └ <generator object MongoClient._conn_from_server at 0x00000167199DB640>
+                └ <contextlib._GeneratorContextManager object at 0x0000016719A26840>
+  File "F:\rag-bot\venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 1867, in _conn_from_server
+    with self._checkout(server, session) as conn:
+         │    │         │       └ None
+         │    │         └ <Server <ServerDescription ('ac-zv72iq8-shard-00-01.okflkbo.mongodb.net', 27017) server_type: Unknown, rtt: None, error=Opera...
+         │    └ <function MongoClient._checkout at 0x0000016717E931A0>
+         └ MongoClient(host=['ac-zv72iq8-shard-00-01.okflkbo.mongodb.net:27017', 'ac-zv72iq8-shard-00-02.okflkbo.mongodb.net:27017', 'ac...
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 137, in __enter__
+    return next(self.gen)
+                │    └ <generator object MongoClient._checkout at 0x000001671A280480>
+                └ <contextlib._GeneratorContextManager object at 0x0000016719A26810>
+  File "F:\rag-bot\venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 1777, in _checkout
+    with server.checkout(handler=err_handler) as conn:
+         │      │                └ <pymongo.synchronous.mongo_client._MongoClientErrorHandler object at 0x0000016719A085E0>
+         │      └ <function Server.checkout at 0x0000016717E7B420>
+         └ <Server <ServerDescription ('ac-zv72iq8-shard-00-01.okflkbo.mongodb.net', 27017) server_type: Unknown, rtt: None, error=Opera...
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 137, in __enter__
+    return next(self.gen)
+                │    └ <generator object Pool.checkout at 0x00000167193DAE80>
+                └ <contextlib._GeneratorContextManager object at 0x000001671A28E0C0>
+  File "F:\rag-bot\venv\Lib\site-packages\pymongo\synchronous\pool.py", line 1118, in checkout
+    conn = self._get_conn(checkout_started_time, handler=handler)
+           │    │         │                              └ <pymongo.synchronous.mongo_client._MongoClientErrorHandler object at 0x0000016719A085E0>
+           │    │         └ 378835.062
+           │    └ <function Pool._get_conn at 0x0000016717E799E0>
+           └ <pymongo.synchronous.pool.Pool object at 0x0000016718183C50>
+  File "F:\rag-bot\venv\Lib\site-packages\pymongo\synchronous\pool.py", line 1280, in _get_conn
+    conn = self.connect(handler=handler)
+           │    │               └ <pymongo.synchronous.mongo_client._MongoClientErrorHandler object at 0x0000016719A085E0>
+           │    └ <function Pool.connect at 0x0000016717E79760>
+           └ <pymongo.synchronous.pool.Pool object at 0x0000016718183C50>
+  File "F:\rag-bot\venv\Lib\site-packages\pymongo\synchronous\pool.py", line 1072, in connect
+    conn.authenticate()
+    │    └ <function Connection.authenticate at 0x0000016717E784A0>
+    └ Connection(<pymongo.network_layer.NetworkingInterface object at 0x0000016719A27170>) CLOSED at 1542323332080
+  File "F:\rag-bot\venv\Lib\site-packages\pymongo\synchronous\pool.py", line 525, in authenticate
+    auth.authenticate(creds, self, reauthenticate=reauthenticate)
+    │    │            │      │                    └ False
+    │    │            │      └ Connection(<pymongo.network_layer.NetworkingInterface object at 0x0000016719A27170>) CLOSED at 1542323332080
+    │    │            └ MongoCredential(mechanism='DEFAULT', source='admin', username='revanthnaik12_db_user', password='HipsterWong$420', mechanism_...
+    │    └ <function authenticate at 0x0000016717EC8C20>
+    └ <module 'pymongo.synchronous.auth' from 'F:\\rag-bot\\venv\\Lib\\site-packages\\pymongo\\synchronous\\auth.py'>
+  File "F:\rag-bot\venv\Lib\site-packages\pymongo\synchronous\auth.py", line 450, in authenticate
+    auth_func(credentials, conn)
+    │         │            └ Connection(<pymongo.network_layer.NetworkingInterface object at 0x0000016719A27170>) CLOSED at 1542323332080
+    │         └ MongoCredential(mechanism='DEFAULT', source='admin', username='revanthnaik12_db_user', password='HipsterWong$420', mechanism_...
+    └ <function _authenticate_default at 0x0000016717EC8B80>
+  File "F:\rag-bot\venv\Lib\site-packages\pymongo\synchronous\auth.py", line 355, in _authenticate_default
+    return _authenticate_scram(credentials, conn, "SCRAM-SHA-1")
+           │                   │            └ Connection(<pymongo.network_layer.NetworkingInterface object at 0x0000016719A27170>) CLOSED at 1542323332080
+           │                   └ MongoCredential(mechanism='DEFAULT', source='admin', username='revanthnaik12_db_user', password='HipsterWong$420', mechanism_...
+           └ <function _authenticate_scram at 0x0000016717E97880>
+  File "F:\rag-bot\venv\Lib\site-packages\pymongo\synchronous\auth.py", line 135, in _authenticate_scram
+    res = conn.command(source, cmd)
+          │    │       │       └ {'saslContinue': 1, 'conversationId': 1, 'payload': Binary(b'c=biws,r=dvcmufwHOWVvSu5KafzbXf/K0X5UMhKZ1OmsqEBFOLo=TntyJhzaApr...
+          │    │       └ 'admin'
+          │    └ <function _handle_reauth.<locals>.inner at 0x0000016717E780E0>
+          └ Connection(<pymongo.network_layer.NetworkingInterface object at 0x0000016719A27170>) CLOSED at 1542323332080
+  File "F:\rag-bot\venv\Lib\site-packages\pymongo\synchronous\helpers.py", line 47, in inner
+    return func(*args, **kwargs)
+           │     │       └ {}
+           │     └ (Connection(<pymongo.network_layer.NetworkingInterface object at 0x0000016719A27170>) CLOSED at 1542323332080, 'admin', {'sas...
+           └ <function Connection.command at 0x0000016717E78040>
+  File "F:\rag-bot\venv\Lib\site-packages\pymongo\synchronous\pool.py", line 413, in command
+    return command(
+           └ <function command at 0x0000016717E51E40>
+  File "F:\rag-bot\venv\Lib\site-packages\pymongo\synchronous\network.py", line 212, in command
+    helpers_shared._check_command_response(
+    │              └ <function _check_command_response at 0x0000016717AFDDA0>
+    └ <module 'pymongo.helpers_shared' from 'F:\\rag-bot\\venv\\Lib\\site-packages\\pymongo\\helpers_shared.py'>
+  File "F:\rag-bot\venv\Lib\site-packages\pymongo\helpers_shared.py", line 284, in _check_command_response
+    raise OperationFailure(errmsg, code, response, max_wire_version)
+          │                │       │     │         └ 25
+          │                │       │     └ {'ok': 0, 'errmsg': 'bad auth : authentication failed', 'code': 8000, 'codeName': 'AtlasError'}
+          │                │       └ 8000
+          │                └ 'bad auth : authentication failed'
+          └ <class 'pymongo.errors.OperationFailure'>
+
+pymongo.errors.OperationFailure: bad auth : authentication failed, full error: {'ok': 0, 'errmsg': 'bad auth : authentication failed', 'code': 8000, 'codeName': 'AtlasError'}
+2025-09-29 22:37:05 | ERROR | app.services.logger_service:log_error:168 | f2d655c6 | Application error occurred
+Traceback (most recent call last):
+
+  File "<string>", line 1, in <module>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\spawn.py", line 122, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+               │     │   └ 184
+               │     └ 3
+               └ <function _main at 0x00000167775732E0>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\spawn.py", line 135, in _main
+    return self._bootstrap(parent_sentinel)
+           │    │          └ 184
+           │    └ <function BaseProcess._bootstrap at 0x0000016777469620>
+           └ <SpawnProcess name='SpawnProcess-1' parent=16912 started>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\process.py", line 314, in _bootstrap
+    self.run()
+    │    └ <function BaseProcess.run at 0x0000016777468B80>
+    └ <SpawnProcess name='SpawnProcess-1' parent=16912 started>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {'config': <uvicorn.config.Config object at 0x0000016777534320>, 'target': <bound method Server.run of <uvicorn.server.Server...
+    │    │        │    │        └ <SpawnProcess name='SpawnProcess-1' parent=16912 started>
+    │    │        │    └ ()
+    │    │        └ <SpawnProcess name='SpawnProcess-1' parent=16912 started>
+    │    └ <function subprocess_started at 0x0000016779968400>
+    └ <SpawnProcess name='SpawnProcess-1' parent=16912 started>
+  File "F:\rag-bot\venv\Lib\site-packages\uvicorn\_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+    │              └ [<socket.socket fd=788, family=2, type=1, proto=6, laddr=('127.0.0.1', 8000)>]
+    └ <bound method Server.run of <uvicorn.server.Server object at 0x0000016779ADAFF0>>
+  File "F:\rag-bot\venv\Lib\site-packages\uvicorn\server.py", line 67, in run
+    return asyncio_run(self.serve(sockets=sockets), loop_factory=self.config.get_loop_factory())
+           │           │    │             │                      │    │      └ <function Config.get_loop_factory at 0x00000167798FD620>
+           │           │    │             │                      │    └ <uvicorn.config.Config object at 0x0000016777534320>
+           │           │    │             │                      └ <uvicorn.server.Server object at 0x0000016779ADAFF0>
+           │           │    │             └ [<socket.socket fd=788, family=2, type=1, proto=6, laddr=('127.0.0.1', 8000)>]
+           │           │    └ <function Server.serve at 0x00000167799439C0>
+           │           └ <uvicorn.server.Server object at 0x0000016779ADAFF0>
+           └ <function run at 0x00000167791EB600>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 194, in run
+    return runner.run(main)
+           │      │   └ <coroutine object Server.serve at 0x0000016779A97920>
+           │      └ <function Runner.run at 0x00000167792168E0>
+           └ <asyncio.runners.Runner object at 0x00000167775344A0>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           │    │     │                  └ <Task pending name='Task-1' coro=<Server.serve() running at F:\rag-bot\venv\Lib\site-packages\uvicorn\server.py:71> wait_for=...
+           │    │     └ <function BaseEventLoop.run_until_complete at 0x0000016779214540>
+           │    └ <_WindowsSelectorEventLoop running=True closed=False debug=False>
+           └ <asyncio.runners.Runner object at 0x00000167775344A0>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 674, in run_until_complete
+    self.run_forever()
+    │    └ <function BaseEventLoop.run_forever at 0x00000167792144A0>
+    └ <_WindowsSelectorEventLoop running=True closed=False debug=False>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 641, in run_forever
+    self._run_once()
+    │    └ <function BaseEventLoop._run_once at 0x00000167792162A0>
+    └ <_WindowsSelectorEventLoop running=True closed=False debug=False>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 1987, in _run_once
+    handle._run()
+    │      └ <function Handle._run at 0x00000167791505E0>
+    └ <Handle Task.task_wakeup(<Future finis...tlasError'}")>)>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+    │    │            │    │           │    └ <member '_args' of 'Handle' objects>
+    │    │            │    │           └ <Handle Task.task_wakeup(<Future finis...tlasError'}")>)>
+    │    │            │    └ <member '_callback' of 'Handle' objects>
+    │    │            └ <Handle Task.task_wakeup(<Future finis...tlasError'}")>)>
+    │    └ <member '_context' of 'Handle' objects>
+    └ <Handle Task.task_wakeup(<Future finis...tlasError'}")>)>
+
+> File "F:\rag-bot\app\integrations\vector_db.py", line 376, in health_check
+    await self.connect()
+          │    └ <function VectorDatabase.connect at 0x0000016717F456C0>
+          └ <app.integrations.vector_db.VectorDatabase object at 0x00000167179DB530>
+
+  File "F:\rag-bot\app\integrations\vector_db.py", line 61, in connect
+    await self.client.admin.command('ping')
+          │    └ AsyncIOMotorClient(MongoClient(host=['ac-zv72iq8-shard-00-01.okflkbo.mongodb.net:27017', 'ac-zv72iq8-shard-00-02.okflkbo.mong...
+          └ <app.integrations.vector_db.VectorDatabase object at 0x00000167179DB530>
+
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             │        │            └ None
+             │        └ None
+             └ None
+  File "F:\rag-bot\venv\Lib\site-packages\pymongo\_csot.py", line 125, in csot_wrapper
+    return func(self, *args, **kwargs)
+           │    │      │       └ {}
+           │    │      └ ('ping',)
+           │    └ Database(MongoClient(host=['ac-zv72iq8-shard-00-01.okflkbo.mongodb.net:27017', 'ac-zv72iq8-shard-00-02.okflkbo.mongodb.net:27...
+           └ <function Database.command at 0x0000016717E1FC40>
+  File "F:\rag-bot\venv\Lib\site-packages\pymongo\synchronous\database.py", line 931, in command
+    with self._client._conn_for_reads(read_preference, session, operation=command_name) as (
+         │    │       │               │                │                  └ 'ping'
+         │    │       │               │                └ None
+         │    │       │               └ Primary()
+         │    │       └ <function MongoClient._conn_for_reads at 0x0000016717E934C0>
+         │    └ MongoClient(host=['ac-zv72iq8-shard-00-01.okflkbo.mongodb.net:27017', 'ac-zv72iq8-shard-00-02.okflkbo.mongodb.net:27017', 'ac...
+         └ Database(MongoClient(host=['ac-zv72iq8-shard-00-01.okflkbo.mongodb.net:27017', 'ac-zv72iq8-shard-00-02.okflkbo.mongodb.net:27...
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 137, in __enter__
+    return next(self.gen)
+                │    └ <generator object MongoClient._conn_from_server at 0x00000167199DB640>
+                └ <contextlib._GeneratorContextManager object at 0x0000016719A26840>
+  File "F:\rag-bot\venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 1867, in _conn_from_server
+    with self._checkout(server, session) as conn:
+         │    │         │       └ None
+         │    │         └ <Server <ServerDescription ('ac-zv72iq8-shard-00-01.okflkbo.mongodb.net', 27017) server_type: Unknown, rtt: None, error=Opera...
+         │    └ <function MongoClient._checkout at 0x0000016717E931A0>
+         └ MongoClient(host=['ac-zv72iq8-shard-00-01.okflkbo.mongodb.net:27017', 'ac-zv72iq8-shard-00-02.okflkbo.mongodb.net:27017', 'ac...
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 137, in __enter__
+    return next(self.gen)
+                │    └ <generator object MongoClient._checkout at 0x000001671A280480>
+                └ <contextlib._GeneratorContextManager object at 0x0000016719A26810>
+  File "F:\rag-bot\venv\Lib\site-packages\pymongo\synchronous\mongo_client.py", line 1777, in _checkout
+    with server.checkout(handler=err_handler) as conn:
+         │      │                └ <pymongo.synchronous.mongo_client._MongoClientErrorHandler object at 0x0000016719A085E0>
+         │      └ <function Server.checkout at 0x0000016717E7B420>
+         └ <Server <ServerDescription ('ac-zv72iq8-shard-00-01.okflkbo.mongodb.net', 27017) server_type: Unknown, rtt: None, error=Opera...
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 137, in __enter__
+    return next(self.gen)
+                │    └ <generator object Pool.checkout at 0x00000167193DAE80>
+                └ <contextlib._GeneratorContextManager object at 0x000001671A28E0C0>
+  File "F:\rag-bot\venv\Lib\site-packages\pymongo\synchronous\pool.py", line 1118, in checkout
+    conn = self._get_conn(checkout_started_time, handler=handler)
+           │    │         │                              └ <pymongo.synchronous.mongo_client._MongoClientErrorHandler object at 0x0000016719A085E0>
+           │    │         └ 378835.062
+           │    └ <function Pool._get_conn at 0x0000016717E799E0>
+           └ <pymongo.synchronous.pool.Pool object at 0x0000016718183C50>
+  File "F:\rag-bot\venv\Lib\site-packages\pymongo\synchronous\pool.py", line 1280, in _get_conn
+    conn = self.connect(handler=handler)
+           │    │               └ <pymongo.synchronous.mongo_client._MongoClientErrorHandler object at 0x0000016719A085E0>
+           │    └ <function Pool.connect at 0x0000016717E79760>
+           └ <pymongo.synchronous.pool.Pool object at 0x0000016718183C50>
+  File "F:\rag-bot\venv\Lib\site-packages\pymongo\synchronous\pool.py", line 1072, in connect
+    conn.authenticate()
+    │    └ <function Connection.authenticate at 0x0000016717E784A0>
+    └ Connection(<pymongo.network_layer.NetworkingInterface object at 0x0000016719A27170>) CLOSED at 1542323332080
+  File "F:\rag-bot\venv\Lib\site-packages\pymongo\synchronous\pool.py", line 525, in authenticate
+    auth.authenticate(creds, self, reauthenticate=reauthenticate)
+    │    │            │      │                    └ False
+    │    │            │      └ Connection(<pymongo.network_layer.NetworkingInterface object at 0x0000016719A27170>) CLOSED at 1542323332080
+    │    │            └ MongoCredential(mechanism='DEFAULT', source='admin', username='revanthnaik12_db_user', password='HipsterWong$420', mechanism_...
+    │    └ <function authenticate at 0x0000016717EC8C20>
+    └ <module 'pymongo.synchronous.auth' from 'F:\\rag-bot\\venv\\Lib\\site-packages\\pymongo\\synchronous\\auth.py'>
+  File "F:\rag-bot\venv\Lib\site-packages\pymongo\synchronous\auth.py", line 450, in authenticate
+    auth_func(credentials, conn)
+    │         │            └ Connection(<pymongo.network_layer.NetworkingInterface object at 0x0000016719A27170>) CLOSED at 1542323332080
+    │         └ MongoCredential(mechanism='DEFAULT', source='admin', username='revanthnaik12_db_user', password='HipsterWong$420', mechanism_...
+    └ <function _authenticate_default at 0x0000016717EC8B80>
+  File "F:\rag-bot\venv\Lib\site-packages\pymongo\synchronous\auth.py", line 355, in _authenticate_default
+    return _authenticate_scram(credentials, conn, "SCRAM-SHA-1")
+           │                   │            └ Connection(<pymongo.network_layer.NetworkingInterface object at 0x0000016719A27170>) CLOSED at 1542323332080
+           │                   └ MongoCredential(mechanism='DEFAULT', source='admin', username='revanthnaik12_db_user', password='HipsterWong$420', mechanism_...
+           └ <function _authenticate_scram at 0x0000016717E97880>
+  File "F:\rag-bot\venv\Lib\site-packages\pymongo\synchronous\auth.py", line 135, in _authenticate_scram
+    res = conn.command(source, cmd)
+          │    │       │       └ {'saslContinue': 1, 'conversationId': 1, 'payload': Binary(b'c=biws,r=dvcmufwHOWVvSu5KafzbXf/K0X5UMhKZ1OmsqEBFOLo=TntyJhzaApr...
+          │    │       └ 'admin'
+          │    └ <function _handle_reauth.<locals>.inner at 0x0000016717E780E0>
+          └ Connection(<pymongo.network_layer.NetworkingInterface object at 0x0000016719A27170>) CLOSED at 1542323332080
+  File "F:\rag-bot\venv\Lib\site-packages\pymongo\synchronous\helpers.py", line 47, in inner
+    return func(*args, **kwargs)
+           │     │       └ {}
+           │     └ (Connection(<pymongo.network_layer.NetworkingInterface object at 0x0000016719A27170>) CLOSED at 1542323332080, 'admin', {'sas...
+           └ <function Connection.command at 0x0000016717E78040>
+  File "F:\rag-bot\venv\Lib\site-packages\pymongo\synchronous\pool.py", line 413, in command
+    return command(
+           └ <function command at 0x0000016717E51E40>
+  File "F:\rag-bot\venv\Lib\site-packages\pymongo\synchronous\network.py", line 212, in command
+    helpers_shared._check_command_response(
+    │              └ <function _check_command_response at 0x0000016717AFDDA0>
+    └ <module 'pymongo.helpers_shared' from 'F:\\rag-bot\\venv\\Lib\\site-packages\\pymongo\\helpers_shared.py'>
+  File "F:\rag-bot\venv\Lib\site-packages\pymongo\helpers_shared.py", line 284, in _check_command_response
+    raise OperationFailure(errmsg, code, response, max_wire_version)
+          │                │       │     │         └ 25
+          │                │       │     └ {'ok': 0, 'errmsg': 'bad auth : authentication failed', 'code': 8000, 'codeName': 'AtlasError'}
+          │                │       └ 8000
+          │                └ 'bad auth : authentication failed'
+          └ <class 'pymongo.errors.OperationFailure'>
+
+pymongo.errors.OperationFailure: bad auth : authentication failed, full error: {'ok': 0, 'errmsg': 'bad auth : authentication failed', 'code': 8000, 'codeName': 'AtlasError'}
+2025-09-29 22:37:05 | ERROR | app.services.logger_service:log_llm_request:219 | f2d655c6 | LLM request failed
+2025-09-29 22:37:05 | ERROR | app.services.logger_service:log_error:168 | f2d655c6 | Application error occurred
+Traceback (most recent call last):
+
+  File "<string>", line 1, in <module>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\spawn.py", line 122, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+               │     │   └ 184
+               │     └ 3
+               └ <function _main at 0x00000167775732E0>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\spawn.py", line 135, in _main
+    return self._bootstrap(parent_sentinel)
+           │    │          └ 184
+           │    └ <function BaseProcess._bootstrap at 0x0000016777469620>
+           └ <SpawnProcess name='SpawnProcess-1' parent=16912 started>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\process.py", line 314, in _bootstrap
+    self.run()
+    │    └ <function BaseProcess.run at 0x0000016777468B80>
+    └ <SpawnProcess name='SpawnProcess-1' parent=16912 started>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {'config': <uvicorn.config.Config object at 0x0000016777534320>, 'target': <bound method Server.run of <uvicorn.server.Server...
+    │    │        │    │        └ <SpawnProcess name='SpawnProcess-1' parent=16912 started>
+    │    │        │    └ ()
+    │    │        └ <SpawnProcess name='SpawnProcess-1' parent=16912 started>
+    │    └ <function subprocess_started at 0x0000016779968400>
+    └ <SpawnProcess name='SpawnProcess-1' parent=16912 started>
+  File "F:\rag-bot\venv\Lib\site-packages\uvicorn\_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+    │              └ [<socket.socket fd=788, family=2, type=1, proto=6, laddr=('127.0.0.1', 8000)>]
+    └ <bound method Server.run of <uvicorn.server.Server object at 0x0000016779ADAFF0>>
+  File "F:\rag-bot\venv\Lib\site-packages\uvicorn\server.py", line 67, in run
+    return asyncio_run(self.serve(sockets=sockets), loop_factory=self.config.get_loop_factory())
+           │           │    │             │                      │    │      └ <function Config.get_loop_factory at 0x00000167798FD620>
+           │           │    │             │                      │    └ <uvicorn.config.Config object at 0x0000016777534320>
+           │           │    │             │                      └ <uvicorn.server.Server object at 0x0000016779ADAFF0>
+           │           │    │             └ [<socket.socket fd=788, family=2, type=1, proto=6, laddr=('127.0.0.1', 8000)>]
+           │           │    └ <function Server.serve at 0x00000167799439C0>
+           │           └ <uvicorn.server.Server object at 0x0000016779ADAFF0>
+           └ <function run at 0x00000167791EB600>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 194, in run
+    return runner.run(main)
+           │      │   └ <coroutine object Server.serve at 0x0000016779A97920>
+           │      └ <function Runner.run at 0x00000167792168E0>
+           └ <asyncio.runners.Runner object at 0x00000167775344A0>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           │    │     │                  └ <Task pending name='Task-1' coro=<Server.serve() running at F:\rag-bot\venv\Lib\site-packages\uvicorn\server.py:71> wait_for=...
+           │    │     └ <function BaseEventLoop.run_until_complete at 0x0000016779214540>
+           │    └ <_WindowsSelectorEventLoop running=True closed=False debug=False>
+           └ <asyncio.runners.Runner object at 0x00000167775344A0>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 674, in run_until_complete
+    self.run_forever()
+    │    └ <function BaseEventLoop.run_forever at 0x00000167792144A0>
+    └ <_WindowsSelectorEventLoop running=True closed=False debug=False>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 641, in run_forever
+    self._run_once()
+    │    └ <function BaseEventLoop._run_once at 0x00000167792162A0>
+    └ <_WindowsSelectorEventLoop running=True closed=False debug=False>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 1987, in _run_once
+    handle._run()
+    │      └ <function Handle._run at 0x00000167791505E0>
+    └ <Handle <_asyncio.TaskStepMethWrapper object at 0x000001671C99A080>()>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+    │    │            │    │           │    └ <member '_args' of 'Handle' objects>
+    │    │            │    │           └ <Handle <_asyncio.TaskStepMethWrapper object at 0x000001671C99A080>()>
+    │    │            │    └ <member '_callback' of 'Handle' objects>
+    │    │            └ <Handle <_asyncio.TaskStepMethWrapper object at 0x000001671C99A080>()>
+    │    └ <member '_context' of 'Handle' objects>
+    └ <Handle <_asyncio.TaskStepMethWrapper object at 0x000001671C99A080>()>
+
+  File "F:\rag-bot\app\integrations\llm_client.py", line 339, in health_check
+    test_result = await self.generate_response(
+                        │    └ <function LLMClient.generate_response at 0x00000167195236A0>
+                        └ <app.integrations.llm_client.LLMClient object at 0x0000016717F51370>
+
+  File "F:\rag-bot\venv\Lib\site-packages\tenacity\asyncio\__init__.py", line 189, in async_wrapped
+    return await copy(fn, *args, **kwargs)
+                 │    │    │       └ {'prompt': 'Hello', 'context': '', 'temperature': 0.1, 'max_tokens': 10}
+                 │    │    └ (<app.integrations.llm_client.LLMClient object at 0x0000016717F51370>,)
+                 │    └ <function LLMClient.generate_response at 0x0000016719523420>
+                 └ <AsyncRetrying object at 0x1671a2523f0 (stop=<tenacity.stop.stop_after_attempt object at 0x000001671948A750>, wait=<tenacity....
+  File "F:\rag-bot\venv\Lib\site-packages\tenacity\asyncio\__init__.py", line 114, in __call__
+    result = await fn(*args, **kwargs)
+                   │   │       └ {'prompt': 'Hello', 'context': '', 'temperature': 0.1, 'max_tokens': 10}
+                   │   └ (<app.integrations.llm_client.LLMClient object at 0x0000016717F51370>,)
+                   └ <function LLMClient.generate_response at 0x0000016719523420>
+
+> File "F:\rag-bot\app\integrations\llm_client.py", line 135, in generate_response
+    response = await client.chat.completions.create(
+                     │      │    │           └ <function AsyncCompletions.create at 0x00000167198F4E00>
+                     │      │    └ <openai.resources.chat.completions.completions.AsyncCompletions object at 0x0000016719A275C0>
+                     │      └ <openai.resources.chat.chat.AsyncChat object at 0x000001671A28CEF0>
+                     └ <openai.lib.azure.AsyncAzureOpenAI object at 0x000001671A28D100>
+
+  File "F:\rag-bot\venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2585, in create
+    return await self._post(
+                 │    └ <bound method AsyncAPIClient.post of <openai.lib.azure.AsyncAzureOpenAI object at 0x000001671A28D100>>
+                 └ <openai.resources.chat.completions.completions.AsyncCompletions object at 0x0000016719A275C0>
+  File "F:\rag-bot\venv\Lib\site-packages\openai\_base_client.py", line 1794, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+                 │    │       │        │            │                  └ openai.AsyncStream[openai.types.chat.chat_completion_chunk.ChatCompletionChunk]
+                 │    │       │        │            └ False
+                 │    │       │        └ FinalRequestOptions(method='post', url='/chat/completions', params={}, headers=NOT_GIVEN, max_retries=NOT_GIVEN, timeout=NOT_...
+                 │    │       └ <class 'openai.types.chat.chat_completion.ChatCompletion'>
+                 │    └ <function AsyncAPIClient.request at 0x00000167193BEC00>
+                 └ <openai.lib.azure.AsyncAzureOpenAI object at 0x000001671A28D100>
+  File "F:\rag-bot\venv\Lib\site-packages\openai\_base_client.py", line 1594, in request
+    raise self._make_status_error_from_response(err.response) from None
+          │    └ <function BaseClient._make_status_error_from_response at 0x00000167193A7D80>
+          └ <openai.lib.azure.AsyncAzureOpenAI object at 0x000001671A28D100>
+
+openai.AuthenticationError: Error code: 401 - {'error': {'code': '401', 'message': 'Access denied due to invalid subscription key or wrong API endpoint. Make sure to provide a valid key for an active subscription and use a correct regional API endpoint for your resource.'}}
+2025-09-29 22:37:09 | ERROR | app.services.logger_service:log_llm_request:219 | f2d655c6 | LLM request failed
+2025-09-29 22:37:09 | ERROR | app.services.logger_service:log_error:168 | f2d655c6 | Application error occurred
+Traceback (most recent call last):
+
+  File "<string>", line 1, in <module>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\spawn.py", line 122, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+               │     │   └ 184
+               │     └ 3
+               └ <function _main at 0x00000167775732E0>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\spawn.py", line 135, in _main
+    return self._bootstrap(parent_sentinel)
+           │    │          └ 184
+           │    └ <function BaseProcess._bootstrap at 0x0000016777469620>
+           └ <SpawnProcess name='SpawnProcess-1' parent=16912 started>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\process.py", line 314, in _bootstrap
+    self.run()
+    │    └ <function BaseProcess.run at 0x0000016777468B80>
+    └ <SpawnProcess name='SpawnProcess-1' parent=16912 started>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {'config': <uvicorn.config.Config object at 0x0000016777534320>, 'target': <bound method Server.run of <uvicorn.server.Server...
+    │    │        │    │        └ <SpawnProcess name='SpawnProcess-1' parent=16912 started>
+    │    │        │    └ ()
+    │    │        └ <SpawnProcess name='SpawnProcess-1' parent=16912 started>
+    │    └ <function subprocess_started at 0x0000016779968400>
+    └ <SpawnProcess name='SpawnProcess-1' parent=16912 started>
+  File "F:\rag-bot\venv\Lib\site-packages\uvicorn\_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+    │              └ [<socket.socket fd=788, family=2, type=1, proto=6, laddr=('127.0.0.1', 8000)>]
+    └ <bound method Server.run of <uvicorn.server.Server object at 0x0000016779ADAFF0>>
+  File "F:\rag-bot\venv\Lib\site-packages\uvicorn\server.py", line 67, in run
+    return asyncio_run(self.serve(sockets=sockets), loop_factory=self.config.get_loop_factory())
+           │           │    │             │                      │    │      └ <function Config.get_loop_factory at 0x00000167798FD620>
+           │           │    │             │                      │    └ <uvicorn.config.Config object at 0x0000016777534320>
+           │           │    │             │                      └ <uvicorn.server.Server object at 0x0000016779ADAFF0>
+           │           │    │             └ [<socket.socket fd=788, family=2, type=1, proto=6, laddr=('127.0.0.1', 8000)>]
+           │           │    └ <function Server.serve at 0x00000167799439C0>
+           │           └ <uvicorn.server.Server object at 0x0000016779ADAFF0>
+           └ <function run at 0x00000167791EB600>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 194, in run
+    return runner.run(main)
+           │      │   └ <coroutine object Server.serve at 0x0000016779A97920>
+           │      └ <function Runner.run at 0x00000167792168E0>
+           └ <asyncio.runners.Runner object at 0x00000167775344A0>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           │    │     │                  └ <Task pending name='Task-1' coro=<Server.serve() running at F:\rag-bot\venv\Lib\site-packages\uvicorn\server.py:71> wait_for=...
+           │    │     └ <function BaseEventLoop.run_until_complete at 0x0000016779214540>
+           │    └ <_WindowsSelectorEventLoop running=True closed=False debug=False>
+           └ <asyncio.runners.Runner object at 0x00000167775344A0>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 674, in run_until_complete
+    self.run_forever()
+    │    └ <function BaseEventLoop.run_forever at 0x00000167792144A0>
+    └ <_WindowsSelectorEventLoop running=True closed=False debug=False>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 641, in run_forever
+    self._run_once()
+    │    └ <function BaseEventLoop._run_once at 0x00000167792162A0>
+    └ <_WindowsSelectorEventLoop running=True closed=False debug=False>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 1987, in _run_once
+    handle._run()
+    │      └ <function Handle._run at 0x00000167791505E0>
+    └ <Handle <_asyncio.TaskStepMethWrapper object at 0x000001671CAEF1C0>()>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+    │    │            │    │           │    └ <member '_args' of 'Handle' objects>
+    │    │            │    │           └ <Handle <_asyncio.TaskStepMethWrapper object at 0x000001671CAEF1C0>()>
+    │    │            │    └ <member '_callback' of 'Handle' objects>
+    │    │            └ <Handle <_asyncio.TaskStepMethWrapper object at 0x000001671CAEF1C0>()>
+    │    └ <member '_context' of 'Handle' objects>
+    └ <Handle <_asyncio.TaskStepMethWrapper object at 0x000001671CAEF1C0>()>
+
+  File "F:\rag-bot\app\integrations\llm_client.py", line 339, in health_check
+    test_result = await self.generate_response(
+                        │    └ <function LLMClient.generate_response at 0x00000167195236A0>
+                        └ <app.integrations.llm_client.LLMClient object at 0x0000016717F51370>
+
+  File "F:\rag-bot\venv\Lib\site-packages\tenacity\asyncio\__init__.py", line 189, in async_wrapped
+    return await copy(fn, *args, **kwargs)
+                 │    │    │       └ {'prompt': 'Hello', 'context': '', 'temperature': 0.1, 'max_tokens': 10}
+                 │    │    └ (<app.integrations.llm_client.LLMClient object at 0x0000016717F51370>,)
+                 │    └ <function LLMClient.generate_response at 0x0000016719523420>
+                 └ <AsyncRetrying object at 0x1671a2523f0 (stop=<tenacity.stop.stop_after_attempt object at 0x000001671948A750>, wait=<tenacity....
+  File "F:\rag-bot\venv\Lib\site-packages\tenacity\asyncio\__init__.py", line 114, in __call__
+    result = await fn(*args, **kwargs)
+                   │   │       └ {'prompt': 'Hello', 'context': '', 'temperature': 0.1, 'max_tokens': 10}
+                   │   └ (<app.integrations.llm_client.LLMClient object at 0x0000016717F51370>,)
+                   └ <function LLMClient.generate_response at 0x0000016719523420>
+
+> File "F:\rag-bot\app\integrations\llm_client.py", line 135, in generate_response
+    response = await client.chat.completions.create(
+                     │      │    │           └ <function AsyncCompletions.create at 0x00000167198F4E00>
+                     │      │    └ <openai.resources.chat.completions.completions.AsyncCompletions object at 0x0000016719A275C0>
+                     │      └ <openai.resources.chat.chat.AsyncChat object at 0x000001671A28CEF0>
+                     └ <openai.lib.azure.AsyncAzureOpenAI object at 0x000001671A28D100>
+
+  File "F:\rag-bot\venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2585, in create
+    return await self._post(
+                 │    └ <bound method AsyncAPIClient.post of <openai.lib.azure.AsyncAzureOpenAI object at 0x000001671A28D100>>
+                 └ <openai.resources.chat.completions.completions.AsyncCompletions object at 0x0000016719A275C0>
+  File "F:\rag-bot\venv\Lib\site-packages\openai\_base_client.py", line 1794, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+                 │    │       │        │            │                  └ openai.AsyncStream[openai.types.chat.chat_completion_chunk.ChatCompletionChunk]
+                 │    │       │        │            └ False
+                 │    │       │        └ FinalRequestOptions(method='post', url='/chat/completions', params={}, headers=NOT_GIVEN, max_retries=NOT_GIVEN, timeout=NOT_...
+                 │    │       └ <class 'openai.types.chat.chat_completion.ChatCompletion'>
+                 │    └ <function AsyncAPIClient.request at 0x00000167193BEC00>
+                 └ <openai.lib.azure.AsyncAzureOpenAI object at 0x000001671A28D100>
+  File "F:\rag-bot\venv\Lib\site-packages\openai\_base_client.py", line 1594, in request
+    raise self._make_status_error_from_response(err.response) from None
+          │    └ <function BaseClient._make_status_error_from_response at 0x00000167193A7D80>
+          └ <openai.lib.azure.AsyncAzureOpenAI object at 0x000001671A28D100>
+
+openai.AuthenticationError: Error code: 401 - {'error': {'code': '401', 'message': 'Access denied due to invalid subscription key or wrong API endpoint. Make sure to provide a valid key for an active subscription and use a correct regional API endpoint for your resource.'}}
+2025-09-29 22:37:14 | ERROR | app.services.logger_service:log_llm_request:219 | f2d655c6 | LLM request failed
+2025-09-29 22:37:14 | ERROR | app.services.logger_service:log_error:168 | f2d655c6 | Application error occurred
+Traceback (most recent call last):
+
+  File "<string>", line 1, in <module>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\spawn.py", line 122, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+               │     │   └ 184
+               │     └ 3
+               └ <function _main at 0x00000167775732E0>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\spawn.py", line 135, in _main
+    return self._bootstrap(parent_sentinel)
+           │    │          └ 184
+           │    └ <function BaseProcess._bootstrap at 0x0000016777469620>
+           └ <SpawnProcess name='SpawnProcess-1' parent=16912 started>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\process.py", line 314, in _bootstrap
+    self.run()
+    │    └ <function BaseProcess.run at 0x0000016777468B80>
+    └ <SpawnProcess name='SpawnProcess-1' parent=16912 started>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {'config': <uvicorn.config.Config object at 0x0000016777534320>, 'target': <bound method Server.run of <uvicorn.server.Server...
+    │    │        │    │        └ <SpawnProcess name='SpawnProcess-1' parent=16912 started>
+    │    │        │    └ ()
+    │    │        └ <SpawnProcess name='SpawnProcess-1' parent=16912 started>
+    │    └ <function subprocess_started at 0x0000016779968400>
+    └ <SpawnProcess name='SpawnProcess-1' parent=16912 started>
+  File "F:\rag-bot\venv\Lib\site-packages\uvicorn\_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+    │              └ [<socket.socket fd=788, family=2, type=1, proto=6, laddr=('127.0.0.1', 8000)>]
+    └ <bound method Server.run of <uvicorn.server.Server object at 0x0000016779ADAFF0>>
+  File "F:\rag-bot\venv\Lib\site-packages\uvicorn\server.py", line 67, in run
+    return asyncio_run(self.serve(sockets=sockets), loop_factory=self.config.get_loop_factory())
+           │           │    │             │                      │    │      └ <function Config.get_loop_factory at 0x00000167798FD620>
+           │           │    │             │                      │    └ <uvicorn.config.Config object at 0x0000016777534320>
+           │           │    │             │                      └ <uvicorn.server.Server object at 0x0000016779ADAFF0>
+           │           │    │             └ [<socket.socket fd=788, family=2, type=1, proto=6, laddr=('127.0.0.1', 8000)>]
+           │           │    └ <function Server.serve at 0x00000167799439C0>
+           │           └ <uvicorn.server.Server object at 0x0000016779ADAFF0>
+           └ <function run at 0x00000167791EB600>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 194, in run
+    return runner.run(main)
+           │      │   └ <coroutine object Server.serve at 0x0000016779A97920>
+           │      └ <function Runner.run at 0x00000167792168E0>
+           └ <asyncio.runners.Runner object at 0x00000167775344A0>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           │    │     │                  └ <Task pending name='Task-1' coro=<Server.serve() running at F:\rag-bot\venv\Lib\site-packages\uvicorn\server.py:71> wait_for=...
+           │    │     └ <function BaseEventLoop.run_until_complete at 0x0000016779214540>
+           │    └ <_WindowsSelectorEventLoop running=True closed=False debug=False>
+           └ <asyncio.runners.Runner object at 0x00000167775344A0>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 674, in run_until_complete
+    self.run_forever()
+    │    └ <function BaseEventLoop.run_forever at 0x00000167792144A0>
+    └ <_WindowsSelectorEventLoop running=True closed=False debug=False>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 641, in run_forever
+    self._run_once()
+    │    └ <function BaseEventLoop._run_once at 0x00000167792162A0>
+    └ <_WindowsSelectorEventLoop running=True closed=False debug=False>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 1987, in _run_once
+    handle._run()
+    │      └ <function Handle._run at 0x00000167791505E0>
+    └ <Handle <_asyncio.TaskStepMethWrapper object at 0x0000016719A26E00>()>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+    │    │            │    │           │    └ <member '_args' of 'Handle' objects>
+    │    │            │    │           └ <Handle <_asyncio.TaskStepMethWrapper object at 0x0000016719A26E00>()>
+    │    │            │    └ <member '_callback' of 'Handle' objects>
+    │    │            └ <Handle <_asyncio.TaskStepMethWrapper object at 0x0000016719A26E00>()>
+    │    └ <member '_context' of 'Handle' objects>
+    └ <Handle <_asyncio.TaskStepMethWrapper object at 0x0000016719A26E00>()>
+
+  File "F:\rag-bot\app\integrations\llm_client.py", line 339, in health_check
+    test_result = await self.generate_response(
+                        │    └ <function LLMClient.generate_response at 0x00000167195236A0>
+                        └ <app.integrations.llm_client.LLMClient object at 0x0000016717F51370>
+
+  File "F:\rag-bot\venv\Lib\site-packages\tenacity\asyncio\__init__.py", line 189, in async_wrapped
+    return await copy(fn, *args, **kwargs)
+                 │    │    │       └ {'prompt': 'Hello', 'context': '', 'temperature': 0.1, 'max_tokens': 10}
+                 │    │    └ (<app.integrations.llm_client.LLMClient object at 0x0000016717F51370>,)
+                 │    └ <function LLMClient.generate_response at 0x0000016719523420>
+                 └ <AsyncRetrying object at 0x1671a2523f0 (stop=<tenacity.stop.stop_after_attempt object at 0x000001671948A750>, wait=<tenacity....
+  File "F:\rag-bot\venv\Lib\site-packages\tenacity\asyncio\__init__.py", line 114, in __call__
+    result = await fn(*args, **kwargs)
+                   │   │       └ {'prompt': 'Hello', 'context': '', 'temperature': 0.1, 'max_tokens': 10}
+                   │   └ (<app.integrations.llm_client.LLMClient object at 0x0000016717F51370>,)
+                   └ <function LLMClient.generate_response at 0x0000016719523420>
+
+> File "F:\rag-bot\app\integrations\llm_client.py", line 135, in generate_response
+    response = await client.chat.completions.create(
+                     │      │    │           └ <function AsyncCompletions.create at 0x00000167198F4E00>
+                     │      │    └ <openai.resources.chat.completions.completions.AsyncCompletions object at 0x0000016719A275C0>
+                     │      └ <openai.resources.chat.chat.AsyncChat object at 0x000001671A28CEF0>
+                     └ <openai.lib.azure.AsyncAzureOpenAI object at 0x000001671A28D100>
+
+  File "F:\rag-bot\venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2585, in create
+    return await self._post(
+                 │    └ <bound method AsyncAPIClient.post of <openai.lib.azure.AsyncAzureOpenAI object at 0x000001671A28D100>>
+                 └ <openai.resources.chat.completions.completions.AsyncCompletions object at 0x0000016719A275C0>
+  File "F:\rag-bot\venv\Lib\site-packages\openai\_base_client.py", line 1794, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+                 │    │       │        │            │                  └ openai.AsyncStream[openai.types.chat.chat_completion_chunk.ChatCompletionChunk]
+                 │    │       │        │            └ False
+                 │    │       │        └ FinalRequestOptions(method='post', url='/chat/completions', params={}, headers=NOT_GIVEN, max_retries=NOT_GIVEN, timeout=NOT_...
+                 │    │       └ <class 'openai.types.chat.chat_completion.ChatCompletion'>
+                 │    └ <function AsyncAPIClient.request at 0x00000167193BEC00>
+                 └ <openai.lib.azure.AsyncAzureOpenAI object at 0x000001671A28D100>
+  File "F:\rag-bot\venv\Lib\site-packages\openai\_base_client.py", line 1594, in request
+    raise self._make_status_error_from_response(err.response) from None
+          │    └ <function BaseClient._make_status_error_from_response at 0x00000167193A7D80>
+          └ <openai.lib.azure.AsyncAzureOpenAI object at 0x000001671A28D100>
+
+openai.AuthenticationError: Error code: 401 - {'error': {'code': '401', 'message': 'Access denied due to invalid subscription key or wrong API endpoint. Make sure to provide a valid key for an active subscription and use a correct regional API endpoint for your resource.'}}
+2025-09-29 22:37:14 | ERROR | app.services.logger_service:log_error:168 | f2d655c6 | Application error occurred
+Traceback (most recent call last):
+
+  File "F:\rag-bot\venv\Lib\site-packages\tenacity\asyncio\__init__.py", line 114, in __call__
+    result = await fn(*args, **kwargs)
+                   │   │       └ {'prompt': 'Hello', 'context': '', 'temperature': 0.1, 'max_tokens': 10}
+                   │   └ (<app.integrations.llm_client.LLMClient object at 0x0000016717F51370>,)
+                   └ <function LLMClient.generate_response at 0x0000016719523420>
+
+  File "F:\rag-bot\app\integrations\llm_client.py", line 135, in generate_response
+    response = await client.chat.completions.create(
+                     │      │    │           └ <function AsyncCompletions.create at 0x00000167198F4E00>
+                     │      │    └ <openai.resources.chat.completions.completions.AsyncCompletions object at 0x0000016719A275C0>
+                     │      └ <openai.resources.chat.chat.AsyncChat object at 0x000001671A28CEF0>
+                     └ <openai.lib.azure.AsyncAzureOpenAI object at 0x000001671A28D100>
+
+  File "F:\rag-bot\venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2585, in create
+    return await self._post(
+                 │    └ <bound method AsyncAPIClient.post of <openai.lib.azure.AsyncAzureOpenAI object at 0x000001671A28D100>>
+                 └ <openai.resources.chat.completions.completions.AsyncCompletions object at 0x0000016719A275C0>
+  File "F:\rag-bot\venv\Lib\site-packages\openai\_base_client.py", line 1794, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+                 │    │       │        │            │                  └ openai.AsyncStream[openai.types.chat.chat_completion_chunk.ChatCompletionChunk]
+                 │    │       │        │            └ False
+                 │    │       │        └ FinalRequestOptions(method='post', url='/chat/completions', params={}, headers=NOT_GIVEN, max_retries=NOT_GIVEN, timeout=NOT_...
+                 │    │       └ <class 'openai.types.chat.chat_completion.ChatCompletion'>
+                 │    └ <function AsyncAPIClient.request at 0x00000167193BEC00>
+                 └ <openai.lib.azure.AsyncAzureOpenAI object at 0x000001671A28D100>
+  File "F:\rag-bot\venv\Lib\site-packages\openai\_base_client.py", line 1594, in request
+    raise self._make_status_error_from_response(err.response) from None
+          │    └ <function BaseClient._make_status_error_from_response at 0x00000167193A7D80>
+          └ <openai.lib.azure.AsyncAzureOpenAI object at 0x000001671A28D100>
+
+openai.AuthenticationError: Error code: 401 - {'error': {'code': '401', 'message': 'Access denied due to invalid subscription key or wrong API endpoint. Make sure to provide a valid key for an active subscription and use a correct regional API endpoint for your resource.'}}
+
+
+The above exception was the direct cause of the following exception:
+
+
+Traceback (most recent call last):
+
+  File "<string>", line 1, in <module>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\spawn.py", line 122, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+               │     │   └ 184
+               │     └ 3
+               └ <function _main at 0x00000167775732E0>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\spawn.py", line 135, in _main
+    return self._bootstrap(parent_sentinel)
+           │    │          └ 184
+           │    └ <function BaseProcess._bootstrap at 0x0000016777469620>
+           └ <SpawnProcess name='SpawnProcess-1' parent=16912 started>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\process.py", line 314, in _bootstrap
+    self.run()
+    │    └ <function BaseProcess.run at 0x0000016777468B80>
+    └ <SpawnProcess name='SpawnProcess-1' parent=16912 started>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {'config': <uvicorn.config.Config object at 0x0000016777534320>, 'target': <bound method Server.run of <uvicorn.server.Server...
+    │    │        │    │        └ <SpawnProcess name='SpawnProcess-1' parent=16912 started>
+    │    │        │    └ ()
+    │    │        └ <SpawnProcess name='SpawnProcess-1' parent=16912 started>
+    │    └ <function subprocess_started at 0x0000016779968400>
+    └ <SpawnProcess name='SpawnProcess-1' parent=16912 started>
+  File "F:\rag-bot\venv\Lib\site-packages\uvicorn\_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+    │              └ [<socket.socket fd=788, family=2, type=1, proto=6, laddr=('127.0.0.1', 8000)>]
+    └ <bound method Server.run of <uvicorn.server.Server object at 0x0000016779ADAFF0>>
+  File "F:\rag-bot\venv\Lib\site-packages\uvicorn\server.py", line 67, in run
+    return asyncio_run(self.serve(sockets=sockets), loop_factory=self.config.get_loop_factory())
+           │           │    │             │                      │    │      └ <function Config.get_loop_factory at 0x00000167798FD620>
+           │           │    │             │                      │    └ <uvicorn.config.Config object at 0x0000016777534320>
+           │           │    │             │                      └ <uvicorn.server.Server object at 0x0000016779ADAFF0>
+           │           │    │             └ [<socket.socket fd=788, family=2, type=1, proto=6, laddr=('127.0.0.1', 8000)>]
+           │           │    └ <function Server.serve at 0x00000167799439C0>
+           │           └ <uvicorn.server.Server object at 0x0000016779ADAFF0>
+           └ <function run at 0x00000167791EB600>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 194, in run
+    return runner.run(main)
+           │      │   └ <coroutine object Server.serve at 0x0000016779A97920>
+           │      └ <function Runner.run at 0x00000167792168E0>
+           └ <asyncio.runners.Runner object at 0x00000167775344A0>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           │    │     │                  └ <Task pending name='Task-1' coro=<Server.serve() running at F:\rag-bot\venv\Lib\site-packages\uvicorn\server.py:71> wait_for=...
+           │    │     └ <function BaseEventLoop.run_until_complete at 0x0000016779214540>
+           │    └ <_WindowsSelectorEventLoop running=True closed=False debug=False>
+           └ <asyncio.runners.Runner object at 0x00000167775344A0>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 674, in run_until_complete
+    self.run_forever()
+    │    └ <function BaseEventLoop.run_forever at 0x00000167792144A0>
+    └ <_WindowsSelectorEventLoop running=True closed=False debug=False>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 641, in run_forever
+    self._run_once()
+    │    └ <function BaseEventLoop._run_once at 0x00000167792162A0>
+    └ <_WindowsSelectorEventLoop running=True closed=False debug=False>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 1987, in _run_once
+    handle._run()
+    │      └ <function Handle._run at 0x00000167791505E0>
+    └ <Handle <_asyncio.TaskStepMethWrapper object at 0x0000016719A26E00>()>
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+    │    │            │    │           │    └ <member '_args' of 'Handle' objects>
+    │    │            │    │           └ <Handle <_asyncio.TaskStepMethWrapper object at 0x0000016719A26E00>()>
+    │    │            │    └ <member '_callback' of 'Handle' objects>
+    │    │            └ <Handle <_asyncio.TaskStepMethWrapper object at 0x0000016719A26E00>()>
+    │    └ <member '_context' of 'Handle' objects>
+    └ <Handle <_asyncio.TaskStepMethWrapper object at 0x0000016719A26E00>()>
+
+> File "F:\rag-bot\app\integrations\llm_client.py", line 339, in health_check
+    test_result = await self.generate_response(
+                        │    └ <function LLMClient.generate_response at 0x00000167195236A0>
+                        └ <app.integrations.llm_client.LLMClient object at 0x0000016717F51370>
+
+  File "F:\rag-bot\venv\Lib\site-packages\tenacity\asyncio\__init__.py", line 189, in async_wrapped
+    return await copy(fn, *args, **kwargs)
+                 │    │    │       └ {'prompt': 'Hello', 'context': '', 'temperature': 0.1, 'max_tokens': 10}
+                 │    │    └ (<app.integrations.llm_client.LLMClient object at 0x0000016717F51370>,)
+                 │    └ <function LLMClient.generate_response at 0x0000016719523420>
+                 └ <AsyncRetrying object at 0x1671a2523f0 (stop=<tenacity.stop.stop_after_attempt object at 0x000001671948A750>, wait=<tenacity....
+  File "F:\rag-bot\venv\Lib\site-packages\tenacity\asyncio\__init__.py", line 111, in __call__
+    do = await self.iter(retry_state=retry_state)
+               │    │                └ <RetryCallState 1542332141584: attempt #3; slept for 8.0; last result: failed (AuthenticationError Error code: 401 - {'error'...
+               │    └ <function AsyncRetrying.iter at 0x000001677C475440>
+               └ <AsyncRetrying object at 0x1671a2523f0 (stop=<tenacity.stop.stop_after_attempt object at 0x000001671948A750>, wait=<tenacity....
+  File "F:\rag-bot\venv\Lib\site-packages\tenacity\asyncio\__init__.py", line 153, in iter
+    result = await action(retry_state)
+                   │      └ <RetryCallState 1542332141584: attempt #3; slept for 8.0; last result: failed (AuthenticationError Error code: 401 - {'error'...
+                   └ <function wrap_to_async_func.<locals>.inner at 0x000001671CB4CD60>
+  File "F:\rag-bot\venv\Lib\site-packages\tenacity\_utils.py", line 99, in inner
+    return call(*args, **kwargs)
+           │     │       └ {}
+           │     └ (<RetryCallState 1542332141584: attempt #3; slept for 8.0; last result: failed (AuthenticationError Error code: 401 - {'error...
+           └ <function BaseRetrying._post_stop_check_actions.<locals>.exc_check at 0x000001671C8828E0>
+  File "F:\rag-bot\venv\Lib\site-packages\tenacity\__init__.py", line 421, in exc_check
+    raise retry_exc from fut.exception()
+          │              │   └ <function Future.exception at 0x000001677784ED40>
+          │              └ <Future at 0x1671c886ba0 state=finished raised AuthenticationError>
+          └ RetryError(<Future at 0x1671c886ba0 state=finished raised AuthenticationError>)
+
+tenacity.RetryError: RetryError[<Future at 0x1671c886ba0 state=finished raised AuthenticationError>]

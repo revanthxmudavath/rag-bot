@@ -8,9 +8,11 @@ import traceback
 
 from app.models.responses import ErrorResponse, ValidationErrorResponse, ValidationErrorDetail
 from app.services.logger_service import get_logger_service
+from app.config import get_settings
 
 
 logger_service = get_logger_service()
+settings = get_settings()
 
 
 class RAGBotException(Exception):
@@ -292,10 +294,13 @@ async def general_exception_handler(request: Request, exc: Exception) -> JSONRes
     })
 
     # Create generic error response (don't expose internal details)
+    include_debug = getattr(settings, "debug", False) or str(getattr(settings, "log_level", "")).upper() == "DEBUG"
+    error_details = {"error_type": type(exc).__name__} if include_debug else {}
+
     error_response = ErrorResponse(
         error="INTERNAL_SERVER_ERROR",
         message="An unexpected error occurred. Please try again later.",
-        details={"error_type": type(exc).__name__} if logger_service.get_logger().level.name == "DEBUG" else {},
+        details=error_details,
         request_id=request_id
     )
 
