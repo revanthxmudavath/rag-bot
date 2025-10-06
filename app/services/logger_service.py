@@ -20,7 +20,6 @@ class LoggerService:
 
     def _setup_logger(self):
         """Configure loguru with structured logging."""
-        # Remove default logger
         logger.remove()
 
         def _add_default_context(record):
@@ -30,11 +29,11 @@ class LoggerService:
 
         logger.configure(extra={"request_id": "no_req"}, patcher=_add_default_context)
 
-        # Create logs directory
+        log_to_stdout = getattr(settings, "log_to_stdout", False)
         logs_dir = Path("logs")
-        logs_dir.mkdir(exist_ok=True)
+        if not log_to_stdout:
+            logs_dir.mkdir(exist_ok=True)
 
-        # JSON formatter for structured logging
         def json_formatter(record):
             """Format log records as JSON."""
             log_entry = {
@@ -47,7 +46,6 @@ class LoggerService:
                 "module": record["module"],
             }
 
-            # Add request context if available
             extra = record["extra"]
             if "request_id" in extra:
                 log_entry["request_id"] = extra["request_id"]
@@ -56,51 +54,54 @@ class LoggerService:
             if "endpoint" in extra and extra["endpoint"] is not None:
                 log_entry["endpoint"] = extra["endpoint"]
 
-            # Add any extra fields
             for key, value in record["extra"].items():
                 if key not in log_entry:
                     log_entry[key] = value
 
             return json.dumps(log_entry, default=str)
 
-        # File logger with JSON format for production
-        if settings.environment == "production":
-            logger.add(
-                logs_dir / "app.json",
-                format=json_formatter,
-                level=settings.log_level,
-                rotation="1 day",
-                retention="30 days",
-                compression="gz",
-                serialize=True
-            )
-        else:
-            # Readable format for development
-            logger.add(
-                logs_dir / "app.log",
-                format="{time:YYYY-MM-DD HH:mm:ss} | {level} | {name}:{function}:{line} | {extra[request_id]} | {message}",
-                level=settings.log_level,
-                rotation="1 day",
-                retention="7 days"
-            )
+        if not log_to_stdout:
+            if settings.environment == "production":
+                logger.add(
+                    logs_dir / "app.json",
+                    format=json_formatter,
+                    level=settings.log_level,
+                    rotation="1 day",
+                    retention="30 days",
+                    compression="gz",
+                    serialize=True
+                )
+            else:
+                logger.add(
+                    logs_dir / "app.log",
+                    format="{time:YYYY-MM-DD HH:mm:ss} | {level} | {name}:{function}:{line} | {extra[request_id]} | {message}",
+                    level=settings.log_level,
+                    rotation="1 day",
+                    retention="7 days"
+                )
 
-        # Console logger with colors for development
-        if settings.environment == "development":
-            logger.add(
-                sys.stderr,
-                format="<green>{time:HH:mm:ss}</green> | <level>{level}</level> | <cyan>{extra[request_id]}</cyan> | <level>{message}</level>",
-                level=settings.log_level,
-                colorize=True
-            )
-
-        # Error logger
-        logger.add(
-            logs_dir / "errors.log",
-            format="{time:YYYY-MM-DD HH:mm:ss} | {level} | {name}:{function}:{line} | {extra[request_id]} | {message}",
-            level="ERROR",
-            rotation="1 day",
-            retention="30 days"
+        console_target = sys.stdout if log_to_stdout else sys.stderr
+        console_format = (
+            "{time:YYYY-MM-DD HH:mm:ss} | {level} | {extra[request_id]} | {message}"
+            if log_to_stdout
+            else "<green>{time:HH:mm:ss}</green> | <level>{level}</level> | <cyan>{extra[request_id]}</cyan> | <level>{message}</level>"
         )
+        if log_to_stdout or settings.environment == "development":
+            logger.add(
+                console_target,
+                format=console_format,
+                level=settings.log_level,
+                colorize=not log_to_stdout
+            )
+
+        if not log_to_stdout:
+            logger.add(
+                logs_dir / "errors.log",
+                format="{time:YYYY-MM-DD HH:mm:ss} | {level} | {name}:{function}:{line} | {extra[request_id]} | {message}",
+                level="ERROR",
+                rotation="1 day",
+                retention="30 days"
+            )
 
     def set_request_context(self, request_id: str, user_id: Optional[str] = None,
                            endpoint: Optional[str] = None, **kwargs):
