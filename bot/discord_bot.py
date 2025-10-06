@@ -28,10 +28,6 @@ COMMUNITY_COLORS = {
 }
 
 class PMAcceleratorBot(commands.Bot):
-    """
-    Discord bot for AI Community Project by PM Accelerator.
-    Provides intelligent assistance using RAG for community questions and resources.
-    """
 
     def __init__(self):
         # Configure bot intents
@@ -168,8 +164,7 @@ class PMAcceleratorBot(commands.Bot):
             embed = discord.Embed(
                 title="👋 Hello! I'm your AI Bootcamp Assistant",
                 description="I'm here to help with your AI Engineering journey! "
-                           "Ask me anything about the bootcamp, AI/ML concepts, or your projects.",
-                color=BOOTCAMP_COLORS['primary']
+                           "Ask me anything about the bootcamp, AI/ML concepts, or your projects."
             )
             embed.add_field(
                 name="🎯 Popular Commands",

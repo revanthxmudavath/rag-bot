@@ -77,6 +77,7 @@ async def run_discord_bot():
     try:
         from bot.discord_bot import bot
         logger.info("Starting Discord bot...")
+        await bot.setup_commands()  
         await bot.start(settings.discord_bot_token)
     except ImportError:
         logger.error("Discord bot module not found. Ensure bot/discord_bot.py exists.")
