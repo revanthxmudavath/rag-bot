@@ -56,14 +56,13 @@ def setup_logging():
 def run_api_server():
     """Run the FastAPI server."""
     import uvicorn
-    from app.main import app
 
     logger.info("Starting FastAPI server...")
     logger.info(f"Server will be available at http://{settings.host}:{settings.port}")
     logger.info(f"API documentation at http://{settings.host}:{settings.port}/docs")
 
     uvicorn.run(
-        app,
+        "app.main:app",
         host=settings.host,
         port=settings.port,
         reload=settings.debug and settings.environment == "development",

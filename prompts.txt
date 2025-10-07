@@ -1,43 +1,48 @@
-You’ve heard of coding, and you’ve definitely heard of vibes. But what do they have to do with each other? Vibe coding is an emerging field of development, thanks to AI. It’s helping people build websites, apps and more. To get a better idea of how vibe coding works, why it’s becoming increasingly popular and what you can do with it, we talked to product director Kelly Schaefer, who leads a portfolio of AI-powered products in Google Labs.
+Project Overview: Building a Discord RAG Bot
+Welcome to your first AI project! 
+This assignment challenges you to build a Discord Retrieval-Augmented Generation (RAG) Bot. This bot will be capable of answering questions based on a specific knowledge base, going beyond what a standard Large Language Model (LLM) might know by "retrieving" relevant information before "generating" a response.
+What is a RAG Bot? Imagine you want an AI to answer questions about this AI Internship program's internal documentation, or a training material. A regular LLM might hallucinate or not have the most up-to-date information. A RAG bot solves this by:
+Retrieval: When a user asks a question, the bot first searches a dedicated knowledge base (e.g., a collection of documents) to find the most relevant pieces of information.
+Augmentation: It then takes these retrieved pieces of information and "augments" the user's original query.
+Generation: Finally, it sends this augmented query (original question + retrieved context) to an LLM, which uses the provided context to generate a more accurate and grounded answer.
+Why Discord? Discord provides a familiar, real-world platform for deploying and interacting with your bot, allowing for easy testing and user feedback.
+Various Role Involvement: Each role (Data Scientist, Frontend Engineer, Backend Engineer) has distinct responsibilities. See the tabs on the left side for role specific assignments. 
+Key Concepts to Understand:
+Chunking: Breaking down large documents into smaller, manageable pieces (chunks).
+Embeddings: Converting text chunks into numerical vectors, representing their semantic meaning.
+Vector Database: A specialized database optimized for storing and searching these vector embeddings (e.g., MongoDB Atlas Vector Search).
+Vector Search: Finding the most similar vectors (and thus, text chunks) to a given query vector.
+LLMs: Large Language Models, the "brain" that generates human-like text.
+API Design: How different parts of your application communicate with each other.
+Deployment: Getting your application running in a live environment.
+Logging & Observability: Monitoring your application's health and performance.
+User Experience (UX) in AI: Designing intuitive and effective ways for users to interact with AI.
 
-What do you do at Google?
 
-My teams and I build what we call “future of” products, which focus on the future of design, writing and even software development. In the software arena, we’re thinking about how to democratize building products. It’s not just engineers who will be building in the future!
+Note: To assist with the development process, you are free to use any AI coding, feel free to to use Azure AI Foundry and the free DeepSeek model. 
+YT Deploy DeepSeek R1 using Azure AI Foundry and Build a Web Chatbot | No Charges for API Use = https://www.youtube.com/watch?v=pj2knBX4S1w 
+MSFT = https://azure.microsoft.com/en-us/pricing/purchase-options/azure-account [Available only to new Azure customers = $200 credit]
+MSFT Billing for Free Trial Account = https://learn.microsoft.com/en-us/answers/questions/2283380/billing-for-free-trial-account 
+MSFT - DeepSeek R1 is now available on Azure AI Foundry and GitHub = https://azure.microsoft.com/en-us/blog/deepseek-r1-is-now-available-on-azure-ai-foundry-and-github/
+Go through all of the links above so you have a good idea
 
-And vibe coding can help with that democratization. What’s your definition of vibe coding?
+Good luck, and remember to have fun learning! 
+Helpful Resources: 
+Here are some helpful resources that could be used in your Discord Chatbot journey.
 
-Vibe coding lets you build what you envisioned in your head even if you don't have traditional coding skills. It’s a process where, for example, you can use an AI tool and explain what you want to make and what you want it to look like, and that tool will generate something for you that you can see and use. In the past, you would have had to manually write lines of code to do that.
 
-Do you need to have any coding skills to vibe code?
+Youtube:  Code a Discord Bot with JavaScript 
+Youtube: Code a Discord Bot with Python
+Youtube: Learn Discord.js V14 
+Workshop created by Mentor Apporva that walks through the end-to-end process of chunking, embedding, ingestion, implementing vector search, RAG, and adding memory from scratch, mostly without any frameworks, except LangChain for chunking
+Youtube: Deploying a discord bot using docker
+Build a RAG System Using Claude 3 Opus And MongoDB
 
-You actually don’t — you can make simple apps just by vibe coding. But it might not be the best solution depending on what you’re trying to build and how many people you want to use it. If you want to bring a vibe-coded app all the way to being a fully launched product that a lot of people can use, you still need coding skill and precision. Sometimes people think “I just need to write two sentences about my app and I’ll have an app in the Google Play store that everyone can use!”
+Source Documents the Discord Chatbot should Reference: 
+AI Bootcamp Journey & Learning Path - Also shows high-level schedule
+Training For AI Engineer Interns  - Many video links in this document
+Intern FAQ - AI Bootcamp = Frequently asked questions
 
-So it’s not just like you can think of something, see it in your mind and poof — it’s vibe coded perfectly, working exactly as you imagined?
-
-Right. You can describe something in simple terms and get a vibe-coded app — but to turn it into a real product you’ll need to keep going. It’s great to start by opening a vibe coding tool and trying something simple — for example, the Canvas option in Gemini allows you to enter a prompt like “make me a web app prototype.” You’ll get a basic product. If you wanted to turn this into something lots of people could use, then you could take the next step and start coding, or sharing your basic web app with a developer who would take it to the next stage. For that step, there are tools like Jules, an AI coding agent from Labs, which connects with your code and adds its own code based on what you’ve already made — plus you can ask it to make changes using natural language. Starting this whole process with vibe coding means more of what you saw in your mind’s eye can make it into the final product.
-
-Your vision and your vibe! Sounds like vibe coding isn’t mindless, but it’s helpful for someone who wants to make something and doesn’t know how to code. What kinds of projects do you think are a good fit for vibe coding?
-
-It can help you with prototyping and visualizing your idea so you can communicate it to others, for example if you want to make a functioning app or website for a lot of people to use. Tools like Stitch are especially good at this — you can generate an interface and get front-end code, and then pair it with an AI coding agent like Jules to turn that design into working code. Jules is more of a developer tool to implement ideas at a production level. It’s really helpful because you can hand off multiple tasks at once — something our users love! — like fixing bugs or building out new features.
-
-Together, Stitch and Jules show how vibe coding isn’t only about generating snapshots of an experience, but about making the full loop from idea to design to production-ready code accessible.
-
-I’m guessing what I could vibe code would be very different from what an engineer could vibe code, right?
-
-Well, sure, but your purposes are probably different, too. For example, Stitch is great when you want to quickly describe or visualize an idea, while Jules can carry that forward into live prototypes and all the way into production. Used together, they mirror the way an engineer and a designer might collaborate. If you’re not an engineer or a designer, vibe coding is a way to visualize what you want an engineer to build. Instead of starting with a doc, start with an interactive visual. Also, vibe coding tools are totally something to just have fun with! You can make whatever you want for yourself or to share with friends for no reason other than your own entertainment.
-
-What’s your advice for someone who doesn’t want to be a traditional engineer and wants to get good enough at vibe coding to either build apps or help others visualize them?
-
-Before using a vibe coding tool, start with Gemini and try writing prompts that describe your ideas. Ask Gemini “what am I not considering here?” or “what are some different takes on this?” You're going to get a much better prompt out of it, but also you're going to develop more of a sense of taste, which is really important!
-
-Why’s that?
-
-If you first iterate on the description of what you want to build, you’ll start off on way stronger footing for the actual app. And you don’t want AI to make all the decisions on its own — you want to take the lead! What I’ve found is that when you chat with Gemini about your prompt, the back and forth conversation helps you identify details that you want to include. So much of using these tools is knowing yourself and what you want to accomplish, not just listening to the AI.
-
-Any other tips?
-
-I’d also suggest playing with some of these tools — like Canvas or Stitch. Have very low expectations for yourself! Don’t be intimidated by vibe coding. Many of our products in Labs began as fast, vibe-coded experiments and then grew into stable, production-ready tools. Stitch and Jules allow you to quickly experiment as well: They capture the playful energy of vibe coding while also delivering the depth and reliability developers need to build real applications.
-
-Sounds like a great way to test out ideas, even if you don’t know how to code, and just vibe out.
-
-Yes, you got it!
+Office Hours (for weeks 1-3):
+Please look for announcements in Discord for exact dates/times of Office Hours. 
+Use Office Hours to help with roadblocks rather than as a gatekeeper holding you back. This way you start coding and make progress while not waiting for scheduled weekly Office hour sessions.
