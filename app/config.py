@@ -26,7 +26,6 @@ class Settings(BaseSettings):
     host: str = Field(default="0.0.0.0", description="Host to bind the server")
     port: int = Field(default=8000, description="Port to bind the server")
     log_level: str = Field(default="INFO", description="Logging level")
-    log_to_stdout: bool = Field(default=False, description="Force logging to stdout/stderr only")
 
     # RAG Configuration
     chunk_size: int = Field(default=500, description="Text chunk size for document processing")
