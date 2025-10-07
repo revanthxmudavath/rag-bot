@@ -44,7 +44,6 @@ graph TB
     end
 
     subgraph "Infrastructure"
-        DOCKER[Docker Container<br/>FastAPI + RAG Agent]
         ENV[Environment Config<br/>.env variables]
     end
 
@@ -96,9 +95,8 @@ graph TB
     METRICS_SVC -->|Return stats| METRICS
 
     %% Infrastructure
-    DOCKER -.->|Contains| API
-    DOCKER -.->|Contains| RAG_CONTROLLER
-    ENV -.->|Configure| DOCKER
+    ENV -.->|Configure| API
+    ENV -.->|Configure| RAG_CONTROLLER
 
     style USER fill:#e1f5fe
     style DISCORD fill:#e1f5fe
@@ -112,5 +110,4 @@ graph TB
     style RAG_CONTROLLER fill:#fce4ec
     style VECTOR_DB fill:#ffe0b2
     style FEEDBACK_DB fill:#ffe0b2
-    style DOCKER fill:#e0f2f1
     style LLM fill:#f3e5f5

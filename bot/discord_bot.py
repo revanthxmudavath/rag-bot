@@ -64,6 +64,14 @@ class PMAcceleratorBot(commands.Bot):
         self.session = aiohttp.ClientSession()
         logger.info("✅ HTTP session created for FastAPI communication")
 
+        # Load command extensions
+        try:
+            from bot.commands import CommunityCommands
+            await self.add_cog(CommunityCommands(self))
+            logger.info("✅ Community commands loaded successfully")
+        except Exception as e:
+            logger.error(f"❌ Failed to load commands: {e}")
+
     async def close(self):
         """Clean up resources when bot shuts down."""
         if self.session:
@@ -166,10 +174,10 @@ class PMAcceleratorBot(commands.Bot):
         """Respond to @mentions with context-aware assistance."""
         if self.user.mentioned_in(message) and message.author != self.user:
             embed = discord.Embed(
-                title="👋 Hello! I'm your AI Bootcamp Assistant",
+                title="👋 Hello! I'm your AI Community Assistant",
                 description="I'm here to help with your AI Engineering journey! "
-                           "Ask me anything about the bootcamp, AI/ML concepts, or your projects.",
-                color=BOOTCAMP_COLORS['primary']
+                           "Ask me anything about the community, AI/ML concepts, or your projects.",
+                color=COMMUNITY_COLORS['primary']
             )
             embed.add_field(
                 name="🎯 Popular Commands",
@@ -354,15 +362,6 @@ class PMAcceleratorBot(commands.Bot):
 
         return embed
 
-    async def setup_commands(self):
-        """Load all command extensions."""
-        try:
-            # Import and setup the commands cog
-            from bot.commands import CommunityCommands
-            await self.add_cog(CommunityCommands(self))
-            logger.info("✅ Community commands loaded successfully")
-        except Exception as e:
-            logger.error(f"❌ Failed to load commands: {e}")
 
 # Initialize the bot instance
 bot = PMAcceleratorBot()
@@ -371,9 +370,6 @@ bot = PMAcceleratorBot()
 async def run_bot():
     """Setup and run the Discord bot."""
     try:
-        # Setup commands
-        await bot.setup_commands()
-
         # Start the bot
         token = settings.discord_bot_token
         if not token or token == "test_token_placeholder":

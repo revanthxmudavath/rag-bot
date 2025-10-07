@@ -9,3 +9,5 @@ __pycache__/
 
 test1.py
 ingest.sh
+
+.claude/
