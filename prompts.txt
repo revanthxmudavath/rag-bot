@@ -1,104 +1,43 @@
-📋 Phase 3: RAG Integration Todo Plan
+You’ve heard of coding, and you’ve definitely heard of vibes. But what do they have to do with each other? Vibe coding is an emerging field of development, thanks to AI. It’s helping people build websites, apps and more. To get a better idea of how vibe coding works, why it’s becoming increasingly popular and what you can do with it, we talked to product director Kelly Schaefer, who leads a portfolio of AI-powered products in Google Labs.
 
-  Based on the CLAUDE.md requirements and current repository state, here's the comprehensive Phase 3 implementation plan:
+What do you do at Google?
 
-  ✅ Repository Status Assessment
+My teams and I build what we call “future of” products, which focus on the future of design, writing and even software development. In the software arena, we’re thinking about how to democratize building products. It’s not just engineers who will be building in the future!
 
-  Current State:
-  - ✅ Phase 1: Foundation complete (project structure, models, config)
-  - ✅ Phase 2: Core API complete (health endpoint, logging, metrics, exceptions)
-  - 🔄 Phase 3: RAG Integration - Ready to begin
+And vibe coding can help with that democratization. What’s your definition of vibe coding?
 
-  Existing Assets:
-  - ✅ Request/Response models defined in app/models/
-  - ✅ Configuration system with Azure OpenAI, MongoDB settings
-  - ✅ Logging and metrics infrastructure
-  - ✅ Exception handling framework
-  - 📁 Empty directories: data_science/, app/integrations/
+Vibe coding lets you build what you envisioned in your head even if you don't have traditional coding skills. It’s a process where, for example, you can use an AI tool and explain what you want to make and what you want it to look like, and that tool will generate something for you that you can see and use. In the past, you would have had to manually write lines of code to do that.
 
-  🎯 Phase 3 Implementation Todos (7 Tasks)
+Do you need to have any coding skills to vibe code?
 
-  Data Science Layer (Tasks 1-2)
+You actually don’t — you can make simple apps just by vibe coding. But it might not be the best solution depending on what you’re trying to build and how many people you want to use it. If you want to bring a vibe-coded app all the way to being a fully launched product that a lot of people can use, you still need coding skill and precision. Sometimes people think “I just need to write two sentences about my app and I’ll have an app in the Google Play store that everyone can use!”
 
-  1. 📄 Implement data_science/chunker.py using LangChain
-    - Text chunking with configurable size/overlap
-    - Support for multiple document formats
-    - Metadata preservation during chunking
-  2. 🧠 Implement data_science/embedder.py with sentence-transformers
-    - Initialize all-MiniLM-L6-v2 model
-    - Batch embedding generation
-    - Vector similarity utilities
+So it’s not just like you can think of something, see it in your mind and poof — it’s vibe coded perfectly, working exactly as you imagined?
 
-  Integration Layer (Tasks 3-4)
+Right. You can describe something in simple terms and get a vibe-coded app — but to turn it into a real product you’ll need to keep going. It’s great to start by opening a vibe coding tool and trying something simple — for example, the Canvas option in Gemini allows you to enter a prompt like “make me a web app prototype.” You’ll get a basic product. If you wanted to turn this into something lots of people could use, then you could take the next step and start coding, or sharing your basic web app with a developer who would take it to the next stage. For that step, there are tools like Jules, an AI coding agent from Labs, which connects with your code and adds its own code based on what you’ve already made — plus you can ask it to make changes using natural language. Starting this whole process with vibe coding means more of what you saw in your mind’s eye can make it into the final product.
 
-  3. 🗄️ Create integrations/vector_db.py for MongoDB Atlas
-    - MongoDB Atlas connection management
-    - Vector search implementation
-    - Document storage/retrieval operations
-    - Index management for vector search
-  4. 🤖 Create integrations/llm_client.py for Azure OpenAI
-    - Azure OpenAI client setup
-    - Prompt engineering and completion
-    - Error handling and retry logic
-    - Token usage tracking
+Your vision and your vibe! Sounds like vibe coding isn’t mindless, but it’s helpful for someone who wants to make something and doesn’t know how to code. What kinds of projects do you think are a good fit for vibe coding?
 
-  Service Layer (Task 5)
+It can help you with prototyping and visualizing your idea so you can communicate it to others, for example if you want to make a functioning app or website for a lot of people to use. Tools like Stitch are especially good at this — you can generate an interface and get front-end code, and then pair it with an AI coding agent like Jules to turn that design into working code. Jules is more of a developer tool to implement ideas at a production level. It’s really helpful because you can hand off multiple tasks at once — something our users love! — like fixing bugs or building out new features.
 
-  5. ⚙️ Implement services/rag_service.py to orchestrate pipeline
-    - Complete RAG workflow orchestration
-    - Query processing: embed → search → retrieve → generate
-    - Context building from retrieved chunks
-    - Response formatting with sources and metadata
+Together, Stitch and Jules show how vibe coding isn’t only about generating snapshots of an experience, but about making the full loop from idea to design to production-ready code accessible.
 
-  API Layer (Tasks 6-7)
+I’m guessing what I could vibe code would be very different from what an engineer could vibe code, right?
 
-  6. 🔍 Implement /api/rag-query endpoint
-    - Process user questions via RAG pipeline
-    - Return answers with source attribution
-    - Integration with logging/metrics services
-  7. 📥 Implement /api/ingest endpoint
-    - Document processing and chunking
-    - Embedding generation and storage
-    - Batch processing capabilities
+Well, sure, but your purposes are probably different, too. For example, Stitch is great when you want to quickly describe or visualize an idea, while Jules can carry that forward into live prototypes and all the way into production. Used together, they mirror the way an engineer and a designer might collaborate. If you’re not an engineer or a designer, vibe coding is a way to visualize what you want an engineer to build. Instead of starting with a doc, start with an interactive visual. Also, vibe coding tools are totally something to just have fun with! You can make whatever you want for yourself or to share with friends for no reason other than your own entertainment.
 
-  📊 Implementation Priority & Dependencies
+What’s your advice for someone who doesn’t want to be a traditional engineer and wants to get good enough at vibe coding to either build apps or help others visualize them?
 
-  graph TD
-      A[1. Chunker] --> E[5. RAG Service]
-      B[2. Embedder] --> E
-      C[3. Vector DB] --> E
-      D[4. LLM Client] --> E
-      E --> F[6. RAG Query Endpoint]
-      E --> G[7. Ingest Endpoint]
+Before using a vibe coding tool, start with Gemini and try writing prompts that describe your ideas. Ask Gemini “what am I not considering here?” or “what are some different takes on this?” You're going to get a much better prompt out of it, but also you're going to develop more of a sense of taste, which is really important!
 
-  Suggested Order:
-  1. Chunker + Embedder (parallel development)
-  2. Vector DB + LLM Client (parallel development)
-  3. RAG Service (requires 1-4 complete)
-  4. API Endpoints (requires RAG Service)
+Why’s that?
 
-  🔧 Technical Implementation Notes
+If you first iterate on the description of what you want to build, you’ll start off on way stronger footing for the actual app. And you don’t want AI to make all the decisions on its own — you want to take the lead! What I’ve found is that when you chat with Gemini about your prompt, the back and forth conversation helps you identify details that you want to include. So much of using these tools is knowing yourself and what you want to accomplish, not just listening to the AI.
 
-  Key Technologies:
-  - LangChain: Document chunking and text processing
-  - sentence-transformers: Embedding generation (all-MiniLM-L6-v2)
-  - MongoDB Atlas: Vector storage with search capabilities
-  - Azure OpenAI: LLM inference (DeepSeek R1)
+Any other tips?
 
-  Integration Requirements:
-  - Environment variables already configured in .env
-  - Request/Response models already defined
-  - Error handling and logging infrastructure ready
-  - Metrics collection for performance tracking
+I’d also suggest playing with some of these tools — like Canvas or Stitch. Have very low expectations for yourself! Don’t be intimidated by vibe coding. Many of our products in Labs began as fast, vibe-coded experiments and then grew into stable, production-ready tools. Stitch and Jules allow you to quickly experiment as well: They capture the playful energy of vibe coding while also delivering the depth and reliability developers need to build real applications.
 
-  This plan will implement a complete RAG system capable of ingesting documents, processing user queries, and returning contextual
-  answers with source attribution.
+Sounds like a great way to test out ideas, even if you don’t know how to code, and just vibe out.
 
-  Todos
-  ☐ Implement data_science/chunker.py using LangChain
-  ☐ Implement data_science/embedder.py with sentence-transformers
-  ☐ Create integrations/vector_db.py for MongoDB Atlas
-  ☐ Create integrations/llm_client.py for Azure OpenAI
-  ☐ Implement services/rag_service.py to orchestrate pipeline
-  ☐ Implement /api/rag-query endpoint
-  ☐ Implement /api/ingest endpoint
+Yes, you got it!

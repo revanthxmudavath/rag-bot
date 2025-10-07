@@ -108,9 +108,29 @@ class LLMClient:
 
             # Set max tokens if not provided
             if max_tokens is None:
-                context_budget = 4096 - input_tokens - 100  # Leave buffer for safety
+                # Get model-specific context window limits
+                # gpt-4o: 128k tokens, gpt-4: 8k tokens, gpt-35-turbo: 4k/16k tokens
+                model_context_limits = {
+                    "gpt-4o": 128000,
+                    "gpt-4o-mini": 128000,
+                    "gpt-4": 8192,
+                    "gpt-4-32k": 32768,
+                    "gpt-35-turbo": 4096,
+                    "gpt-35-turbo-16k": 16384
+                }
+
+                # Default to 128k for gpt-4o, fallback to 4k for unknown models
+                max_context_window = model_context_limits.get(
+                    self.deployment_name.lower(),
+                    128000 if "gpt-4o" in self.deployment_name.lower() else 4096
+                )
+
+                context_budget = max_context_window - input_tokens - 100  # Leave buffer for safety
                 if context_budget <= 0:
-                    raise ValueError("Prompt and retrieved context exceed the model's maximum context window.")
+                    raise ValueError(
+                        f"Prompt and retrieved context exceed the model's maximum context window. "
+                        f"Input tokens: {input_tokens}, Model limit: {max_context_window}"
+                    )
                 max_tokens = min(settings.llm_max_tokens, context_budget)
 
             max_tokens = max(1, max_tokens)

@@ -57,11 +57,13 @@ class VectorDatabase:
                 minPoolSize=1
             )
 
-            # Test the connection
-            await self.client.admin.command('ping')
-
+            # Get database and collection references
             self.database = self.client[self.database_name]
             self.collection = self.database[self.collection_name]
+
+            # Test the connection using the target database (not admin)
+            # This avoids authentication errors when user doesn't have admin access
+            await self.database.command('ping')
 
             connection_time = time.time() - start_time
             self._connected = True
@@ -375,8 +377,8 @@ class VectorDatabase:
             if not self._connected:
                 await self.connect()
 
-            # Simple ping to test connection
-            await self.client.admin.command('ping')
+            # Simple ping to test connection using target database (not admin)
+            await self.database.command('ping')
 
             # Test basic collection access
             await self.collection.count_documents({}, limit=1)

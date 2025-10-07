@@ -1,4 +1,3 @@
-version: "3.9"
 
 services:
   rag-api:
@@ -25,6 +24,9 @@ services:
       LOG_TO_STDOUT: "true"
     depends_on:
       - rag-api
+    volumes:
+      - logs:/app/logs
+      - hf-cache:/app/.cache/huggingface
     profiles:
       - bot
     command: ["python", "run.py"]

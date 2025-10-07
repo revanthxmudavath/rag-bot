@@ -149,7 +149,7 @@ class PMAcceleratorBot(commands.Bot):
                 }.get(emoji, 'unknown')
 
                 # Send feedback to backend
-                await self.track_bootcamp_feedback(
+                await self.track_community_feedback(
                     user_id=str(user.id),
                     message_id=str(reaction.message.id),
                     feedback_type=feedback_type,
