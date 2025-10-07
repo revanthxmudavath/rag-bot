@@ -18,7 +18,8 @@ logger_service = get_logger_service()
 async def check_database_health() -> HealthStatus:
     """Check MongoDB Atlas connection health."""
     try:
-        
+        # TODO: Implement actual database health check when MongoDB integration is ready
+        # For now, return a placeholder that shows the structure
         return HealthStatus(
             name="mongodb_atlas",
             status="healthy",
@@ -45,7 +46,8 @@ async def check_database_health() -> HealthStatus:
 async def check_llm_health() -> HealthStatus:
     """Check Azure OpenAI API health."""
     try:
-        
+        # TODO: Implement actual LLM health check when Azure OpenAI integration is ready
+        # For now, return a placeholder that shows the structure
         return HealthStatus(
             name="azure_openai",
             status="healthy",
@@ -72,7 +74,8 @@ async def check_llm_health() -> HealthStatus:
 async def check_embedding_service_health() -> HealthStatus:
     """Check embedding service health."""
     try:
-       
+        # TODO: Implement actual embedding service health check
+        # For now, return a placeholder
         return HealthStatus(
             name="embedding_service",
             status="healthy",
@@ -216,7 +219,8 @@ async def readiness_check() -> Dict[str, Any]:
         dict: Readiness status
     """
     try:
-       
+        # TODO: Add actual readiness checks (database connection, etc.)
+        # For now, return ready if the service is running
         return {
             "status": "ready",
             "timestamp": dt.datetime.now(dt.timezone.utc).isoformat(),

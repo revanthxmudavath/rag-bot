@@ -1,47 +1,48 @@
-
+# FastAPI and web framework
 fastapi
 uvicorn[standard]
 python-multipart
 
-
+# Discord bot
 discord.py
 
-
+# Vector database and embeddings
 pymongo
 sentence-transformers
 motor
-tiktoken
 
+# LLM integration
 openai
 
-
+# Environment and configuration
 python-dotenv
 pydantic
 pydantic-settings
 
-
+# Logging
 loguru
 
-
+# Text processing and chunking
 langchain
 langchain-text-splitters
 
-
+# HTTP client
 httpx
 aiohttp
 
-
+# Testing
 pytest
 pytest-asyncio
 pytest-cov
 
-
+# Code quality
 black
 flake8
 
-
+# Utilities
 python-json-logger
 tenacity
 psutil
 
+# Development
 watchdog
