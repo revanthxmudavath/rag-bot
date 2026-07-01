@@ -13,7 +13,7 @@ class QueryRequest(BaseModel):
         default=5, ge=1, le=20, description="Maximum chunks to retrieve"
     )
     temperature: Optional[float] = Field(
-        default=0.7, ge=0.0, le=2.0, description="LLM temperature"
+        default=1.0, ge=0.0, le=2.0, description="LLM temperature"
     )
     include_sources: Optional[bool] = Field(
         default=True, description="Include source information in response"
@@ -138,7 +138,7 @@ class BulkQueryRequest(BaseModel):
         default=5, ge=1, le=20, description="Maximum chunks to retrieve per query"
     )
     temperature: Optional[float] = Field(
-        default=0.7, ge=0.0, le=2.0, description="LLM temperature"
+        default=1.0, ge=0.0, le=2.0, description="LLM temperature"
     )
 
     @field_validator("queries")

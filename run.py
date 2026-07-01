@@ -136,7 +136,7 @@ def validate_environment():
     required_vars = []
 
     # Check run mode specific requirements
-    run_mode = os.getenv("RUN_MODE", "api").lower()
+    run_mode = settings.run_mode.lower()
 
     if run_mode in ["api", "both"]:
         # FastAPI requirements are mostly optional with defaults
@@ -175,7 +175,7 @@ def main():
     validate_environment()
 
     # Determine run mode
-    run_mode = os.getenv("RUN_MODE", "api").lower()
+    run_mode = settings.run_mode.lower()
     logger.info(f"Run mode: {run_mode}")
 
     try:

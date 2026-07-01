@@ -26,6 +26,7 @@ class Settings(BaseSettings):
     host: str = Field(default="0.0.0.0", description="Host to bind the server")
     port: int = Field(default=8000, description="Port to bind the server")
     log_level: str = Field(default="INFO", description="Logging level")
+    run_mode: str = Field(default="api", description="Run mode: api, bot, or both")
 
     # RAG Configuration
     chunk_size: int = Field(default=500, description="Text chunk size for document processing")
@@ -46,7 +47,7 @@ class Settings(BaseSettings):
     # Database Configuration
     database_name: str = Field(default="rag-backend-db", description="MongoDB database name")
     collection_name: str = Field(default="documents", description="MongoDB collection name")
-    vector_index_name: str = Field(default="vector_index", description="Vector search index name")
+    vector_index_name: str = Field(default="vector-index", description="Vector search index name")
 
     # API Configuration
     api_prefix: str = Field(default="/api", description="API route prefix")
@@ -58,7 +59,7 @@ class Settings(BaseSettings):
     rate_limit_window: int = Field(default=60, description="Rate limit window in seconds")
 
     # LLM Configuration
-    llm_temperature: float = Field(default=0.7, description="LLM temperature for generation")
+    llm_temperature: float = Field(default=1.0, description="LLM temperature for generation")
     llm_max_tokens: int = Field(default=1000, description="Maximum tokens for LLM response")
     llm_timeout: int = Field(default=30, description="LLM request timeout in seconds")
 

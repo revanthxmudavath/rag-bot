@@ -67,7 +67,7 @@ class LLMClient:
         self.client = AsyncAzureOpenAI(
             api_key=self.api_key,
             azure_endpoint=self.endpoint,
-            api_version="2024-02-01"
+            api_version="2025-04-01-preview"
         )
 
         logger_service.get_logger("llm_client").info(
@@ -83,7 +83,7 @@ class LLMClient:
     async def generate_response(self,
                               prompt: str,
                               context: str = "",
-                              temperature: float = 0.7,
+                              temperature: float = 1.0,
                               max_tokens: Optional[int] = None) -> Dict[str, Any]:
         """
         Generate a response using the LLM with optional context.
@@ -156,8 +156,8 @@ class LLMClient:
                 model=self.deployment_name,
                 messages=messages,
                 temperature=temperature,
-                max_tokens=max_tokens,
-                top_p=0.95,
+                max_completion_tokens=max_tokens,
+                
                 frequency_penalty=0,
                 presence_penalty=0
             )
@@ -268,7 +268,7 @@ Answer:"""
     async def generate_with_chunks(self,
                                  query: str,
                                  chunks: List[Dict[str, Any]],
-                                 temperature: float = 0.7,
+                                 temperature: float = 1.0,
                                  max_tokens: Optional[int] = None) -> Dict[str, Any]:
         """
         Generate response using query and retrieved chunks.
@@ -359,8 +359,8 @@ Answer:"""
             test_result = await self.generate_response(
                 prompt="Hello",
                 context="",
-                temperature=0.1,
-                max_tokens=10
+                temperature=1.0,
+                max_completion_tokens=10
             )
 
             return (
@@ -387,8 +387,8 @@ Answer:"""
             response = await client.chat.completions.create(
                 model=self.deployment_name,
                 messages=[{"role": "user", "content": "Test"}],
-                max_tokens=1,
-                temperature=0
+                max_completion_tokens=1,
+                temperature=1.0
             )
 
             duration_ms = (time.time() - start_time) * 1000

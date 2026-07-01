@@ -206,7 +206,7 @@ class PMAcceleratorBot(commands.Bot):
                 "channel_id": channel_id,
                 "max_chunks": 5,
                 "include_sources": True,
-                "temperature": 0.7
+                "temperature": 1.0
             }
 
             async with self.session.post(
