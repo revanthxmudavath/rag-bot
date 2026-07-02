@@ -213,7 +213,7 @@ class VectorDatabase:
             pipeline = [
                 {
                     "$vectorSearch": {
-                        "index": self.vector_index_name,
+                        "index": self.vector_index_name, #vector-index {Mongodb ATLAS search vector index name}
                         "path": "embedding",
                         "queryVector": query_embedding,
                         "numCandidates": min(top_k * 10, 1000),  # More candidates for better recall
@@ -389,50 +389,50 @@ class VectorDatabase:
             logger_service.log_error(e, {"operation": "vector_db_health_check"})
             return False
 
-    async def create_vector_index(self, index_definition: Optional[Dict[str, Any]] = None):
-        """
-        Create vector search index. Note: This requires Atlas CLI or Atlas UI in practice.
-        This method provides the index definition for reference.
+    # async def create_vector_index(self, index_definition: Optional[Dict[str, Any]] = None):
+    #     """
+    #     Create vector search index. Note: This requires Atlas CLI or Atlas UI in practice.
+    #     This method provides the index definition for reference.
 
-        Args:
-            index_definition: Custom index definition
-        """
-        default_index = {
-            "name": self.vector_index_name,
-            "type": "vectorSearch",
-            "definition": {
-                "fields": [
-                    {
-                        "type": "vector",
-                        "path": "embedding",
-                        "numDimensions": 384,  # all-MiniLM-L6-v2 dimensions
-                        "similarity": "cosine"
-                    },
-                    {
-                        "type": "filter",
-                        "path": "metadata.title"
-                    },
-                    {
-                        "type": "filter",
-                        "path": "document_id"
-                    }
-                ]
-            }
-        }
+    #     Args:
+    #         index_definition: Custom index definition
+    #     """
+    #     default_index = {
+    #         "name": self.vector_index_name,
+    #         "type": "vectorSearch",
+    #         "definition": {
+    #             "fields": [
+    #                 {
+    #                     "type": "vector",
+    #                     "path": "embedding",
+    #                     "numDimensions": 384,  # all-MiniLM-L6-v2 dimensions
+    #                     "similarity": "cosine"
+    #                 },
+    #                 {
+    #                     "type": "filter",
+    #                     "path": "metadata.title"
+    #                 },
+    #                 {
+    #                     "type": "filter",
+    #                     "path": "document_id"
+    #                 }
+    #             ]
+    #         }
+    #     }
 
-        index_def = index_definition or default_index
+    #     index_def = index_definition or default_index
 
-        logger_service.get_logger("vector_db").info(
-            f"Vector index definition for '{self.vector_index_name}': {index_def}"
-        )
+    #     logger_service.get_logger("vector_db").info(
+    #         f"Vector index definition for '{self.vector_index_name}': {index_def}"
+    #     )
 
-        # Note: Actual index creation must be done via Atlas CLI or UI
-        logger_service.get_logger("vector_db").warning(
-            "Vector search indexes must be created via MongoDB Atlas UI or CLI. "
-            "Use the definition logged above."
-        )
+    #     # Note: Actual index creation must be done via Atlas CLI or UI
+    #     logger_service.get_logger("vector_db").warning(
+    #         "Vector search indexes must be created via MongoDB Atlas UI or CLI. "
+    #         "Use the definition logged above."
+    #     )
 
-        return index_def
+    #     return index_def
 
 
 # Global instance

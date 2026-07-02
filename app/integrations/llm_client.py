@@ -113,6 +113,7 @@ class LLMClient:
                 model_context_limits = {
                     "gpt-4o": 128000,
                     "gpt-4o-mini": 128000,
+                    "gpt-5-mini": 128000,
                     "gpt-4": 8192,
                     "gpt-4-32k": 32768,
                     "gpt-35-turbo": 4096,
@@ -122,7 +123,7 @@ class LLMClient:
                 # Default to 128k for gpt-4o, fallback to 4k for unknown models
                 max_context_window = model_context_limits.get(
                     self.deployment_name.lower(),
-                    128000 if "gpt-4o" in self.deployment_name.lower() else 4096
+                    128000 if "gpt-5-mini" in self.deployment_name.lower() else 4096
                 )
 
                 context_budget = max_context_window - input_tokens - 100  # Leave buffer for safety
